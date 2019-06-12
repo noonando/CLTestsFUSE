@@ -70,11 +70,10 @@ WebUI.scrollToElement(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizo
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next'))
 
 WebUI.delay(7)
-<<<<<<< HEAD
-=======
+
 
 WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/label_Yes'))
->>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
+//>>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Products'))
 
