@@ -31,6 +31,15 @@ WebUI.delay(3)
 
 WebUI.switchToWindowIndex(1)
 
+WebUI.click(findTestObject('Verizon SMB Object repo/Scotts Repo/Page_ Fuse (verizonsmb qa)/div_Yes'), FailureHandling.OPTIONAL)
+
+WebUI.delay(3)
+
+//WebUI.sendKeys(findTestObject('txt_Comment'), Keys(Keys.return))
+
+
+WebUI.click(findTestObject(('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name')), FailureHandling.OPTIONAL)
+
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
     'Test')
 
@@ -41,6 +50,7 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
     '5645656587')
+WebUI.click(findTestObject('Verizon SMB Object repo/Scotts Repo/Page_ Fuse (verizonsmb qa)/div_Yes'), FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1'), 
     '1222 w athleen dr')
@@ -60,9 +70,6 @@ WebUI.scrollToElement(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizo
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next'))
 
 WebUI.delay(7)
-
-
- WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/label_Yes'))
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Products'))
 
