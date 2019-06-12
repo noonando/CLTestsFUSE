@@ -23,7 +23,7 @@ WebUI.click(findTestObject('uatlogin1/Page_Clearlink Authentication/button_Login
 
 WebUI.maximizeWindow()
 
-WebUI.delay(20)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/a_VZNB'))
 
@@ -32,7 +32,7 @@ WebUI.delay(3)
 WebUI.switchToWindowIndex(1)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
-    'Test')
+    'Changed')
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name'), 
     'Person')
