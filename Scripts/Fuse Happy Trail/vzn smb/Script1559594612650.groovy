@@ -23,7 +23,7 @@ WebUI.click(findTestObject('uatlogin1/Page_Clearlink Authentication/button_Login
 
 WebUI.maximizeWindow()
 
-WebUI.delay(3)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/a_VZNB'))
 
@@ -61,8 +61,7 @@ WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/b
 
 WebUI.delay(7)
 
-
- WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/label_Yes'))
+WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/label_Yes'))
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Products'))
 
