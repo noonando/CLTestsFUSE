@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/i
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
 
-    'Changedagain')
+    'Changedagain2')
 
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name'), 
@@ -65,7 +65,7 @@ WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (ve
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Business Name _customer_business_name'), 
     'Fake things for you to buy')
 
-WebUI.delay(2)
+WebUI.delay(10)
 
 WebUI.scrollToElement(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next'), 0)
 
