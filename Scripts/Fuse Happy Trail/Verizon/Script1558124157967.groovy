@@ -19,7 +19,7 @@ WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to F
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
 
-WebUI.click(findTestObject('uatlogin1/Page_Clearlink Authentication/button_Login'))
+WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
 WebUI.waitForPageLoad(15)
 
