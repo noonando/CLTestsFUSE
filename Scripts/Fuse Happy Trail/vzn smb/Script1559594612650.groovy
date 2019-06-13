@@ -17,9 +17,9 @@ WebUI.openBrowser('uatfuse.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'verizonsmb.qa@clearlink.com')
 
-WebUI.setText(findTestObject('uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
+WebUI.setText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
 
-WebUI.click(findTestObject('uatlogin1/Page_Clearlink Authentication/button_Login'))
+WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
 WebUI.maximizeWindow()
 
