@@ -10,15 +10,15 @@
          <value>//*[(text() = 'Yes' or . = 'Yes')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='customer_phone_numbers_primary_consent']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='customer_phone_numbers_primary_consent']/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -21,9 +21,9 @@ WebUI.setText(findTestObject('uatlogin1/Page_Clearlink Authentication/input_to F
 
 WebUI.click(findTestObject('uatlogin1/Page_Clearlink Authentication/button_Login'))
 
-WebUI.maximizeWindow()
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/a_VZNB'))
 
@@ -36,9 +36,8 @@ WebUI.click(findTestObject('Verizon SMB Object repo/Scotts Repo/Page_ Fuse (veri
 WebUI.delay(3)
 
 //WebUI.sendKeys(findTestObject('txt_Comment'), Keys(Keys.return))
-
-
-WebUI.click(findTestObject(('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name')), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
     'Changed')
@@ -50,6 +49,7 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
     '5645656587')
+
 WebUI.click(findTestObject('Verizon SMB Object repo/Scotts Repo/Page_ Fuse (verizonsmb qa)/div_Yes'), FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1'), 
@@ -69,12 +69,9 @@ WebUI.scrollToElement(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizo
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next'))
 
-WebUI.delay(7)
+WebUI.delay(5)
 
-
-WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/label_Yes'))
 //>>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
-
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Products'))
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Verizon Order Number (MON) _order_brand_account_number'), 
