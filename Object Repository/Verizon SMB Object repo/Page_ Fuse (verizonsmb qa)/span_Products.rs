@@ -6,11 +6,27 @@
    <elementGuidId>0e9a1732-88fe-4053-a390-06bec72e6d02</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;slabButtons&quot;)/a[@class=&quot;slab-button dusk-order-nav-products&quot;]/div[1]/span[@class=&quot;slab-title&quot;][count(. | //span[@class = 'slab-title' and (text() = '
+                            Products
+                        ' or . = '
+                            Products
+                        ')]) = count(//span[@class = 'slab-title' and (text() = '
+                            Products
+                        ' or . = '
+                            Products
+                        ')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='slabButtons']/a[3]/div/span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +36,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -36,7 +52,7 @@
                         </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
