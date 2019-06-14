@@ -23,11 +23,7 @@ WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authenticatio
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-<<<<<<< HEAD
-WebUI.delay(3)
-=======
 WebUI.delay(2)
->>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
 
 WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/a_VZNB'))
 
@@ -72,15 +68,10 @@ WebUI.scrollToElement(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizo
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next'))
 
-<<<<<<< HEAD
-WebUI.delay(5)
-=======
 WebUI.delay(2)
 
 WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/label_Yes'))
->>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
 
-//>>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Products'))
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Verizon Order Number (MON) _order_brand_account_number'), 
