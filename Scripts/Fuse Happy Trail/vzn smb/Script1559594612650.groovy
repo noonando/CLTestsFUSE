@@ -17,35 +17,38 @@ WebUI.openBrowser('uatfuse.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'verizonsmb.qa@clearlink.com')
 
-WebUI.setText(findTestObject('uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
+WebUI.setText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
 
-WebUI.click(findTestObject('uatlogin1/Page_Clearlink Authentication/button_Login'))
+WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
 WebUI.delay(3)
+=======
+WebUI.delay(2)
+>>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
 
 WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/a_VZNB'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.switchToWindowIndex(1)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Scotts Repo/Page_ Fuse (verizonsmb qa)/div_Yes'), FailureHandling.OPTIONAL)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 //WebUI.sendKeys(findTestObject('txt_Comment'), Keys(Keys.return))
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
     FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
-    'Changed')
-
+    'Changedagain4')
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name'), 
-    'Person')
+    'Person3')
 
-WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email'), 'test@testing.com')
+WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email'), 'Miloiscool@testing.com')
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
     '5645656587')
@@ -61,7 +64,7 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama'), '45')
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Business Name _customer_business_name'), 
-    'Fake things for you to buy')
+    'Milo is cool so let him buy the things you need')
 
 WebUI.delay(2)
 
@@ -69,7 +72,13 @@ WebUI.scrollToElement(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizo
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next'))
 
+<<<<<<< HEAD
 WebUI.delay(5)
+=======
+WebUI.delay(2)
+
+WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/label_Yes'))
+>>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
 
 //>>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Products'))
@@ -88,15 +97,15 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Available Products_form-control'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/Page_ Fuse (verizonsmb qa)/a_Bus Digital Voice Solutions Bundle MTM'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/Page_ Fuse (verizonsmb qa)/button_Next'))
 
-WebUI.delay(8)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Collect and confirm customer Name (spell back) address primary Contact Number'))
 
@@ -145,11 +154,15 @@ WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/s
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_First call resolution - I dont want you to have to call back so do you have any other questions for me'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Summary'))
 
-WebUI.delay(15)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Schedule'))
+
+WebUI.closeBrowser()
+
+
 

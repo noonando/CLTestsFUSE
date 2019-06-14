@@ -17,14 +17,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uatsso.clearlink.com/v1/auth/?client_id=93689a31e7c577342a1ff51124fff9a57ad48ef455bd203fa1c37fd61fa16298&response_type=code&redirect_uri=http%3A%2F%2Fuatfuse.clearlink.com&scope=read+write&state=143f5199-8aac-473a-aedf-d36b3f588a83')
 
-WebUI.setText(findTestObject('Object Repository/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'matthew.browning@clearlink.com')
+WebUI.setText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'matthew.browning@clearlink.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 
+WebUI.setEncryptedText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 
     'h/wZhaWomj2B9M0yhkw6+g==')
 
-WebUI.click(findTestObject('Object Repository/uatlogin1/Page_Clearlink Authentication/button_Login'))
+WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'matthew.browning@clearlink.com')
 
-WebUI.setText(findTestObject('uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2018%^')
+WebUI.setText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2018%^')
 
