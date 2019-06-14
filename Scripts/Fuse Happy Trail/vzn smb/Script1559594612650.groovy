@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/i
     FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
-    'Changedagain3')
+    'Changedagain4')
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name'), 
     'Person3')
