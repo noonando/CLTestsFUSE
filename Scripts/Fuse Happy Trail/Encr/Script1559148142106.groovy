@@ -51,6 +51,8 @@ WebUI.click(findTestObject('EncrFolder/Page_ Fuse (Scott Patterson)/button_Next 
 
 WebUI.delay(4)
 
-WebUI.waitForPageLoad(15)
+WebUI.waitForPageLoad(2)
+
+WebUI.closeBrowser
 
 
