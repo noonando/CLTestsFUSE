@@ -31,10 +31,7 @@ WebUI.delay(2)
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.click(findTestObject('Verizon SMB Object repo/Scotts Repo/Page_ Fuse (verizonsmb qa)/div_Yes'), FailureHandling.OPTIONAL)
-
 WebUI.delay(2)
-
 
 //WebUI.sendKeys(findTestObject('txt_Comment'), Keys(Keys.return))
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
@@ -42,6 +39,7 @@ WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/i
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
     'Changedagain4')
+
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name'), 
     'Scott')
 
@@ -70,11 +68,9 @@ WebUI.scrollToElement(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizo
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next'))
 
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/label_Yes'))
-
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Products'))
 
@@ -158,6 +154,4 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Schedule'))
 
 WebUI.closeBrowser()
-
-
 
