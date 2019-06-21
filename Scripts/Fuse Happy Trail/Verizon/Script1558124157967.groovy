@@ -17,11 +17,51 @@ WebUI.openBrowser('uatfuse.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'verizon.qa@clearlink.com')
 
-WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
+WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019!')
 
 WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
-WebUI.waitForPageLoad(15)
+WebUI.waitForPageLoad(3)
 
-WebUI.click(findTestObject('Screen pop update/Page_ Fuse (Matthew Browning)/a_VZN'))
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/a_VZN'))
+
+WebUI.switchToWindowIndex('1')
+
+WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'))
+
+WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
+    'Test')
+
+WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name'), 
+    'object')
+
+WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email'), 'Test@testing.com')
+
+WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
+    '5464987854')
+
+WebUI.click(findTestObject('VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes'))
+
+WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1'), 
+    '1316 lavaca ct')
+
+WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city'), 
+    'Cape Coral')
+
+WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama'), 10)
+
+WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code'), 
+    '33991')
+
+WebUI.scrollToElement(findTestObject('verizon next products/Page_ Fuse (verizon qa)/button_Next'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('verizon next products/Page_ Fuse (verizon qa)/button_Next'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('verizon next products/Page_ Fuse (verizon qa)/span_Products'))
 

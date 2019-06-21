@@ -6,6 +6,10 @@
    <elementGuidId>bb387aec-6a5c-465e-b405-89700589c77b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Yes' or . = 'Yes')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='customer_phone_numbers_primary_consent']/div/label/span</value>
       </entry>
@@ -14,7 +18,7 @@
          <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

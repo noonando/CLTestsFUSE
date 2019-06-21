@@ -1,0 +1,56 @@
+1
+00:00:00,613 --> 00:00:00,631
+1. openBrowser("")
+
+2
+00:00:05,252 --> 00:00:05,253
+5. navigateToUrl("https://uatfuse.clearlink.com/#/")
+
+3
+00:00:06,538 --> 00:00:06,540
+9. setText(findTestObject("Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "frontpoint.qa@clearlink.com")
+
+4
+00:00:06,836 --> 00:00:06,838
+13. setEncryptedText(findTestObject("Page_Clearlink Authentication/input_Invalid username andor"), "h/wZhaWomj1SCqyUQOSQ/g==")
+
+5
+00:00:07,071 --> 00:00:07,072
+17. click(findTestObject("Page_Clearlink Authentication/button_Login"))
+
+6
+00:00:10,777 --> 00:00:10,779
+21. delay(3)
+
+7
+00:00:13,828 --> 00:00:13,831
+25. maximizeWindow()
+
+8
+00:00:14,966 --> 00:00:14,968
+29. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/a_FP"))
+
+9
+00:00:15,115 --> 00:00:15,116
+33. switchToWindowIndex("1")
+
+10
+00:00:15,197 --> 00:00:15,199
+37. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name"), "Test")
+
+11
+00:00:17,714 --> 00:00:17,717
+41. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name"), "Person")
+
+12
+00:00:17,895 --> 00:00:17,896
+45. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number"), "564-654-5645")
+
+13
+00:00:18,235 --> 00:00:18,237
+49. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes"))
+
+14
+00:00:18,375 --> 00:00:18,378
+53. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/button_Next"))
+
