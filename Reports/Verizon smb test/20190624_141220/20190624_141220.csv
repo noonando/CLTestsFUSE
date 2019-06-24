@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verizon smb test,Chrome 75.0.3770.100,,,2019-06-24 14:12:24,2019-06-24 14:13:52,1m - 28.170s,INCOMPLETE
+,,,,,,,
+Test Cases/Fuse Happy Trail/vzn smb,Chrome 75.0.3770.100,,,2019-06-24 14:12:24,2019-06-24 14:13:52,1m - 27.944s,FAILED
+"openBrowser(""uatfuse.clearlink.com"")",Chrome 75.0.3770.100,,,2019-06-24 14:12:25,2019-06-24 14:12:28,3.710s,PASSED
+"setText(findTestObject(""UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr""), ""verizonsmb.qa@clearlink.com"")",Chrome 75.0.3770.100,,,2019-06-24 14:12:28,2019-06-24 14:12:29,0.232s,PASSED
+"setText(findTestObject(""REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd""), ""Clink2019"")",Chrome 75.0.3770.100,,,2019-06-24 14:12:29,2019-06-24 14:12:29,0.102s,PASSED
+"click(findTestObject(""REST examples/uatlogin1/Page_Clearlink Authentication/button_Login""))",Chrome 75.0.3770.100,,,2019-06-24 14:12:29,2019-06-24 14:12:41,12.146s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 75.0.3770.100,,,2019-06-24 14:12:41,2019-06-24 14:12:41,0.325s,PASSED
+delay(2),Chrome 75.0.3770.100,,,2019-06-24 14:12:41,2019-06-24 14:12:43,2.022s,PASSED
+"click(findTestObject(""All screen pop updated/Page_ Fuse all screen pop updated/a_VZNB""))",Chrome 75.0.3770.100,,,2019-06-24 14:12:43,2019-06-24 14:12:43,0.073s,PASSED
+delay(2),Chrome 75.0.3770.100,,,2019-06-24 14:12:43,2019-06-24 14:12:45,2.008s,PASSED
+switchToWindowIndex(1),Chrome 75.0.3770.100,,,2019-06-24 14:12:45,2019-06-24 14:12:45,0.021s,PASSED
+delay(2),Chrome 75.0.3770.100,,,2019-06-24 14:12:45,2019-06-24 14:12:47,2.006s,PASSED
+"click(findTestObject(""Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name""), OPTIONAL)",Chrome 75.0.3770.100,,,2019-06-24 14:12:47,2019-06-24 14:13:18,31.162s,PASSED
+"setText(findTestObject(""Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name""), ""Changedagain4"")",Chrome 75.0.3770.100,,,2019-06-24 14:13:18,2019-06-24 14:13:50,31.170s,FAILED
