@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('uatfuse.clearlink.com')
+WebUI.openBrowser('https://fuse.staging.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'verizon.qa@clearlink.com')
 
@@ -59,9 +59,14 @@ WebUI.scrollToElement(findTestObject('verizon next products/Page_ Fuse (verizon 
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('verizon next products/Page_ Fuse (verizon qa)/button_Next'))
+WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('verizon next products/Page_ Fuse (verizon qa)/span_Products'))
+
+WebUI.setText(findTestObject('Veizon/Page_ Fuse (verizon qa)/input_Verizon Account Number _order_brand_account_number'), 
+    '123456789')
+
+WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/button_Select'))
 

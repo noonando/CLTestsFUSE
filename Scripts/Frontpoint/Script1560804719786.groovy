@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uatfuse.clearlink.com/#/')
+WebUI.navigateToUrl('https://fuse.staging.clearlink.com/#/')
 
 WebUI.setText(findTestObject('Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'frontpoint.qa@clearlink.com')
 
