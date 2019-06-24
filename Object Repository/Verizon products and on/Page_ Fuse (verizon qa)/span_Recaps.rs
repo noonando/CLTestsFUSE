@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Next</name>
+   <name>span_Recaps</name>
    <tag></tag>
-   <elementGuidId>15e1062a-acb4-42d4-add3-8def167224a2</elementGuidId>
+   <elementGuidId>f65b44f5-98c5-4a66-9340-5faa5327746e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = '
-            Next
-    ' or . = '
-            Next
-    ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='0']/div/div/div/div[2]/div/div/button</value>
+         <value>//div[@id='slabButtons']/a[5]/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,21 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>dusk</name>
-      <type>Main</type>
-      <value>next-button</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
+      <value>slab-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,56 +32,56 @@
       <name>text</name>
       <type>Main</type>
       <value>
-            Next
-    </value>
+                            Recaps
+                        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;0&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;button-bar&quot;]/div[1]/div[1]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <value>id(&quot;slabButtons&quot;)/a[@class=&quot;slab-button dusk-order-nav-recaps&quot;]/div[1]/span[@class=&quot;slab-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='0']/div/div/div/div[2]/div/div/button</value>
+      <value>//div[@id='slabButtons']/a[5]/div/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[3]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add-Ons'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[3]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[2]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Availability'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Summary'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='See Opportunities'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Processing... Do not refresh your browser.'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[2]/div/div/button</value>
+      <value>//a[5]/div/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

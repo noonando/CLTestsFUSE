@@ -3,26 +3,18 @@
    <description></description>
    <name>button_Next</name>
    <tag></tag>
-   <elementGuidId>15e1062a-acb4-42d4-add3-8def167224a2</elementGuidId>
+   <elementGuidId>6b782d81-2b4c-42a3-aecd-0188d08b4d56</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = '
-            Next
-    ' or . = '
-            Next
-    ')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='0']/div/div/div/div[2]/div/div/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
