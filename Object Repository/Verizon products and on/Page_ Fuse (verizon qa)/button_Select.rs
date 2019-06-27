@@ -6,41 +6,25 @@
    <elementGuidId>52b8af42-9419-43b0-b36e-385470f69261</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[1]/div/main/div[1]/div[1]/div/div[1]/div/div[1]/article/div/div/form/div[4]/div/fieldset/div/div/div[4]/div/div/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//fieldset[@id='__BVID__220']/div/div/div[12]/div/div/div[2]/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                             Select
-                         </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__220&quot;)/div[1]/div[1]/div[@class=&quot;cartulary&quot;]/div[@class=&quot;classification&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-auto text-center&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <value>/html/body/div[1]/div[1]/div/main/div[1]/div[1]/div/div[1]/div/div[1]/article/div/div/form/div[4]/div/fieldset/div/div/div[4]/div/div/div[2]/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

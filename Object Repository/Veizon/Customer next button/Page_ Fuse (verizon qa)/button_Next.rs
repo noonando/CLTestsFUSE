@@ -6,15 +6,25 @@
    <elementGuidId>6b782d81-2b4c-42a3-aecd-0188d08b4d56</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = '
+            Next
+    ' or . = '
+            Next
+    ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
+         <value>&lt;button dusk=&quot;next-button&quot; class=&quot;btn btn-primary&quot; style=&quot;&quot;>
+            Next
+    &lt;/button></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='0']/div/div/div/div[2]/div/div/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -55,18 +55,89 @@ WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (ve
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code'), 
     '33991')
 
-WebUI.scrollToElement(findTestObject('verizon next products/Page_ Fuse (verizon qa)/button_Next'), 0)
+WebUI.scrollToElement(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'), 0)
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'))
+
+WebUI.delay(7)
 
 WebUI.click(findTestObject('verizon next products/Page_ Fuse (verizon qa)/span_Products'))
 
 WebUI.setText(findTestObject('Veizon/Page_ Fuse (verizon qa)/input_Verizon Account Number _order_brand_account_number'), 
     '123456789')
 
-WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/button_Select'))
+WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/span_No'))
+
+WebUI.delay(5)
+
+//WebUI.scrollToElement(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Next'), 0)
+WebUI.click(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Select'))
+
+WebUI.scrollToPosition(9999999, 9999999)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('vzn product TV Ult/Page_ Fuse (verizon qa)/button_Select'))
+
+WebUI.click(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Next'))
+
+WebUI.delay(7)
+
+WebUI.scrollToPosition(9999999, 9999999)
+
+WebUI.click(findTestObject('Matts objects/select next'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Matts objects/vzn recap 1'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 2'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 3'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 4'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 5'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 6'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 7'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 8'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 9'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 10'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/vzn recap 12'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Matts objects/vzn recap 11'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 12'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 13'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/vzn next recaps'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Matts objects/vzn recap 14'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 15'))
+
+WebUI.click(findTestObject('Matts objects/vzn recap 16'))
+
+WebUI.click(findTestObject('Matts objects/vzn next recaps'))
+
+WebUI.delay(5)
+
+WebUI.scrollToPosition(9999999, 9999999)
+
+WebUI.click(findTestObject('Matts objects/vzn schedule'))
 
