@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Fuse Happy Trail/vzn smb</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>137b4d79-b805-4c1b-92fb-9f9513a5bdf9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/vznmb tests/vznmb</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
