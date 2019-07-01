@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//fieldset[@id='__BVID__215']/div/div/div[3]/div/div/div[2]/button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;__BVID__215&quot;)/div[1]/div[1]/div[@class=&quot;cartulary&quot;]/div[@class=&quot;classification&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-auto text-center&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +31,7 @@
       <value>btn btn-primary </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -36,7 +40,7 @@
                          </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

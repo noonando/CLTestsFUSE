@@ -55,7 +55,8 @@ WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (ve
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code'), 
     '33991')
 
-WebUI.scrollToElement(findTestObject('verizon next products/Page_ Fuse (verizon qa)/button_Next'), 0)
+//WebUI.scrollToElement(findTestObject('verizon next products/Page_ Fuse (verizon qa)/button_Next'), 0)
+WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.delay(2)
 
@@ -63,10 +64,19 @@ WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'))
+
+//WebUI.click(findTestObject('VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes'))
+//WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'))
+//WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'))
+//.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'))
+WebUI.delay(10)
+
 WebUI.click(findTestObject('verizon next products/Page_ Fuse (verizon qa)/span_Products'))
 
 WebUI.setText(findTestObject('Veizon/Page_ Fuse (verizon qa)/input_Verizon Account Number _order_brand_account_number'), 
     '123456789')
 
-WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/button_Select'))
+WebUI.delay(5)
 
+WebUI.scrollToPosition(100, 160)

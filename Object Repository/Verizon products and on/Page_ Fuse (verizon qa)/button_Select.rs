@@ -6,14 +6,23 @@
    <elementGuidId>52b8af42-9419-43b0-b36e-385470f69261</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//body[@class='__plain_text_READY__']//fieldset[@id='__BVID__219']//div//div//div[1]//div[1]//div[1]//div[2]//button[1]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__220']/div/div/div[12]/div/div/div[2]/button</value>
+         <value>/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/form[1]/div[4]/div[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body.__plain_text_READY__:nth-child(8) div.content.loader-container:nth-child(2) div.container-fluid div.order-form-container:nth-child(1) div.row div.col-lg-7 div.box div.content div.shank form.form div.row:nth-child(4) div.col-12.col-xl fieldset.b-form-group.form-group div.cartulary:nth-child(1) div.classification div.row.align-items-center div.col-auto.text-center > button.btn.btn-primary
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +36,7 @@
       <value>btn btn-primary </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -36,18 +45,18 @@
                          </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__220&quot;)/div[1]/div[1]/div[@class=&quot;cartulary&quot;]/div[@class=&quot;classification&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-auto text-center&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <value>//body[@class='__plain_text_READY__']//fieldset[@id='__BVID__219']//div//div//div[1]//div[1]//div[1]//div[2]//button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__220']/div/div/div[12]/div/div/div[2]/button</value>
+      <value>//body[@class='__plain_text_READY__']//fieldset[@id='__BVID__219']//div//div//div[1]//div[1]//div[1]//div[2]//button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

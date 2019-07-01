@@ -13,8 +13,20 @@
          <key>XPATH</key>
          <value>//div[@id='0']/div/div/div/div[2]/div/div/button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;0&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;button-bar&quot;]/div[1]/div[1]/button[@class=&quot;btn btn-primary&quot;][count(. | //button[@dusk = 'next-button' and @class = 'btn btn-primary' and (text() = '
+            Next
+    ' or . = '
+            Next
+    ')]) = count(//button[@dusk = 'next-button' and @class = 'btn btn-primary' and (text() = '
+            Next
+    ' or . = '
+            Next
+    ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,14 +36,14 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>dusk</name>
       <type>Main</type>
       <value>next-button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -47,7 +59,7 @@
     </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
