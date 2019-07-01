@@ -6,6 +6,10 @@
    <elementGuidId>2b0ea093-0072-4570-a7b4-77baa605f398</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'No' or . = 'No')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='isexception']/div[2]/label/span</value>
       </entry>
