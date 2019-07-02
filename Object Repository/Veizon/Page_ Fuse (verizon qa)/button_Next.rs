@@ -9,8 +9,16 @@
          <key>XPATH</key>
          <value>//div[@id='2']/div/div/div/div[2]/div/div/button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = '
+            Next
+    ' or . = '
+            Next
+    ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

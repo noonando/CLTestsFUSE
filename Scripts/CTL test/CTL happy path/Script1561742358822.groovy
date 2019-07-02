@@ -13,6 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
+import groovy.time.TimeCategory
+
+currentDate = new Date()
+
+
+
 WebUI.openBrowser('https://fuse.staging.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'centurylink.qa@clearlink.com')
@@ -28,6 +35,8 @@ WebUI.maximizeWindow()
 WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/a_EMBARQ'))
 
 WebUI.switchToWindowIndex('1')
+
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'))
 
@@ -55,13 +64,15 @@ WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (ve
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code'), 
     '33991')
 
-WebUI.scrollToElement(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'), 0)
+//WebUI.scrollToElement(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'), 0)
+WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/button_Next'))
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/h1_Products'), 90)
 
-WebUI.scrollToElement(findTestObject('Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/button_select'), 0)
+//WebUI.scrollToElement(findTestObject('Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/button_select'), 0)
+WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/button_select'))
 
@@ -91,4 +102,7 @@ WebUI.click(findTestObject('Matts objects/CTL credit check page/Page_ Fuse (Cent
 WebUI.waitForElementVisible(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/h1_Addons'), 120)
 
 WebUI.click(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/input_Addons_el-input__inner'))
+
+
+WebUI.setText(new Date())
 
