@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select</name>
+   <tag></tag>
+   <elementGuidId>08b2d0b4-b73a-465b-9bc6-abf748e3a47f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[1]/div/main/div[1]/div[1]/div/div[1]/div/div[1]/article/div/div/form/div[4]/div/fieldset/div/div/div[2]/div/div/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__220']//div[2]//div[1]//div[1]//div[2]//button[1]  
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[1]/div/main/div[1]/div[1]/div/div[1]/div/div[1]/article/div/div/form/div[4]/div/fieldset/div/div/div[2]/div/div/div[2]/button</value>
+   </webElementProperties>
+</WebElementEntity>

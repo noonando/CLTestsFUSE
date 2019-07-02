@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://uatfuse.clearlink.com')
+WebUI.openBrowser('fuse.staging.clearlink.com')
 
 WebUI.maximizeWindow()
 
@@ -53,6 +53,6 @@ WebUI.delay(4)
 
 WebUI.waitForPageLoad(2)
 
-WebUI.closeBrowser
 
+WebUI.closeBrowser
 
