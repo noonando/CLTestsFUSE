@@ -48,7 +48,7 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
     '5645656587')
 
-WebUI.delay(3)
+WebUI.waitForElementClickable(findTestObject('vznmb customer page/Page_ Fuse (verizonsmb qa)/span_Yes'), 0)
 
 WebUI.click(findTestObject('VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes'))
 
@@ -84,7 +84,7 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_8am-10am8am-12pm10am-12pm12pm-2pm12pm-4pm1pm-5pm'), 
     3)
 
-WebUI.delay(3)
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Available Products_form-control'), 
     FailureHandling.STOP_ON_FAILURE)
@@ -97,7 +97,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/Page_ Fuse (verizonsmb qa)/button_Next'))
 
-WebUI.delay(7)
+WebUI.waitForElementClickable(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Collect and confirm customer Name (spell back) address primary Contact Number'), 
+    0)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Collect and confirm customer Name (spell back) address primary Contact Number'))
 
