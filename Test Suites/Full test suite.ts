@@ -23,15 +23,21 @@
       <testCaseId>Test Cases/Frontpoint</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>946b171b-ccc2-424a-b5d5-97b55cc7d2c2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Fuse Happy Trail/vzn smb</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>137b4d79-b805-4c1b-92fb-9f9513a5bdf9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/vznmb tests/vznmb</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ce52b56-d7ce-4209-a55d-6ee7f77214bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CTL test/CTL happy path</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>998b2d7f-d90f-485d-8a97-c8ec9e5e08aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Fuse Happy Trail/vzn smb</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

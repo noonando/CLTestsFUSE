@@ -63,7 +63,7 @@ WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/
 
 WebUI.click(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'))
 
-WebUI.delay(7)
+WebUI.waitForElementClickable(findTestObject('Matts objects/verizon/Page_ Fuse (verizon qa)/button_Login to Optix'), 0)
 
 WebUI.click(findTestObject('verizon next products/Page_ Fuse (verizon qa)/span_Products'))
 
@@ -72,26 +72,28 @@ WebUI.setText(findTestObject('Veizon/Page_ Fuse (verizon qa)/input_Verizon Accou
 
 WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/span_No'))
 
-WebUI.delay(5)
+WebUI.waitForElementClickable(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Select'), 0)
 
 //WebUI.scrollToElement(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Next'), 0)
 WebUI.click(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Select'))
 
 WebUI.scrollToPosition(9999999, 9999999)
 
-WebUI.delay(5)
+WebUI.waitForElementVisible(findTestObject('vzn product TV Ult/Page_ Fuse (verizon qa)/button_Select'), 0)
 
 WebUI.click(findTestObject('vzn product TV Ult/Page_ Fuse (verizon qa)/button_Select'))
 
 WebUI.click(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Next'))
 
-WebUI.delay(7)
+WebUI.waitForElementVisible(findTestObject('Matts objects/verizon/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/h1_AddOns'), 
+    0)
 
 WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('Matts objects/select next'))
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Matts objects/verizon/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/h1_Recaps'), 
+    0)
 
 WebUI.click(findTestObject('Matts objects/vzn recap 1'))
 
@@ -115,7 +117,7 @@ WebUI.click(findTestObject('Matts objects/vzn recap 10'))
 
 WebUI.scrollToElement(findTestObject('Matts objects/vzn recap 12'), 0)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Matts objects/vzn recap 11'))
 
@@ -125,7 +127,7 @@ WebUI.click(findTestObject('Matts objects/vzn recap 13'))
 
 WebUI.scrollToElement(findTestObject('Matts objects/vzn next recaps'), 0)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Matts objects/vzn recap 14'))
 
@@ -135,7 +137,8 @@ WebUI.click(findTestObject('Matts objects/vzn recap 16'))
 
 WebUI.click(findTestObject('Matts objects/vzn next recaps'))
 
-WebUI.delay(5)
+WebUI.waitForElementClickable(findTestObject('Matts objects/verizon/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/a_Status Log'), 
+    0)
 
 WebUI.scrollToPosition(9999999, 9999999)
 

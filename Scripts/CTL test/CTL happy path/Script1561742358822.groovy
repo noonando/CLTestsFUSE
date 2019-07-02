@@ -90,5 +90,102 @@ WebUI.click(findTestObject('Matts objects/CTL credit check page/Page_ Fuse (Cent
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/h1_Addons'), 120)
 
-WebUI.click(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/input_Addons_el-input__inner'))
+WebUI.setText(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/input_Addons_el-input__inner'), '07312019')
+
+WebUI.click(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/button_select'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/install button select'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/install button select'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/button_Next'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/button_Next'))
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/h1_Additional'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/span_Yes'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/span_Yes'))
+
+WebUI.click(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/span_Yes credit card info'))
+
+WebUI.setText(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/input_Card Number _order_additionals_credit_card_info_card_number'), 
+    '5111005111051128')
+
+WebUI.setText(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/input_Expiration Date _el-input__inner'), 
+    '1122')
+
+WebUI.selectOptionByIndex(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/select_American ExpressVisaMaster CardDiscoverNovus'), 
+    '3')
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/button_Next'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/button_Next'))
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/button_Proceed to Installation'), 
+    0)
+
+WebUI.click(findTestObject('Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/button_Proceed to Installation'))
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/h1_Installation'), 
+    240)
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/button_select'), 
+    0)
+
+WebUI.click(findTestObject('Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/button_select'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/button_Next'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/button_Next'))
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/h1_Recaps'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 1'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 2'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 3'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 3'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 4'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 4'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 5'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 6'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 6'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 7'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 8'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 9'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 10'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 11'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 12'))
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/button_Next'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 13'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 14'))
+
+WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/button_Next'))
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/a_Status Log'), 120)
+
+WebUI.scrollToElement(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Schedule'), 0)
+
+WebUI.click(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Schedule'))
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Create an Additional Order'), 
+    120)
 

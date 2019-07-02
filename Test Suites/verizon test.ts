@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Verizon smb test</name>
+   <name>verizon test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>0c0065e0-4a1e-46a6-9321-51ebc62806f2</testSuiteGuid>
+   <testSuiteGuid>5712f9f1-0ef3-4661-9286-bf981a92da77</testSuiteGuid>
    <testCaseLink>
-      <guid>999451e6-32f1-4380-9119-fedc13bbb114</guid>
+      <guid>5eb66718-346b-4f4e-93c7-c9668e708476</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Fuse Happy Trail/vzn smb</testCaseId>
+      <testCaseId>Test Cases/Fuse Happy Trail/Verizon</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

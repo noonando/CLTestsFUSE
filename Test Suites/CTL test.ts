@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>vzn smb test</name>
+   <name>CTL test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>56c2a51b-94b6-4a56-9c64-9c0461feb8ce</testSuiteGuid>
+   <testSuiteGuid>bc9862ea-46a0-4264-bef3-3e3bc28a0879</testSuiteGuid>
    <testCaseLink>
-      <guid>7d3a8b43-e2cf-4994-8157-a53b2f38fe92</guid>
+      <guid>98029eac-b951-40b6-832b-75cf1d7893e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Fuse Happy Trail/vzn smb</testCaseId>
+      <testCaseId>Test Cases/CTL test/CTL happy path</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
