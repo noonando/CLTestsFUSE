@@ -55,7 +55,7 @@ WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (ve
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code'), 
     '33991')
 
-WebUI.scrollToElement(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'), 0)
+WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/button_Next'))
 
