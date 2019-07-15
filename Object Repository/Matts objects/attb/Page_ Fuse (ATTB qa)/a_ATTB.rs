@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/main/div/div/div/div[4]/div/div/div/div/article/div/div/div/div/div/div/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/traffic-controller?CONCEPT=ATTB&amp;KBID=57986&amp;ANI=1207047975&amp;CUSTZIP=48888&amp;interaction_type_id=1' and (text() = 'ATTB' or . = 'ATTB')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

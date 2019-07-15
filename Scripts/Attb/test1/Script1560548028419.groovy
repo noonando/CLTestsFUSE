@@ -21,13 +21,17 @@ WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to F
 
 WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
-WebUI.waitForPageLoad(3)
-
-WebUI.maximizeWindow()
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/a_ATTB'))
 
+WebUI.maximizeWindow()
+
 WebUI.switchToWindowIndex('1')
+
+//WebUI.executeJavaScript('document.body.style.zoom=\'90%\'', null)
+WebUI.waitForElementClickable(findTestObject('vnzmb customer slab/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
+    0)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'))
 
@@ -55,6 +59,11 @@ WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (ve
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code'), 
     '33991')
 
+WebUI.scrollToPosition(9999999, 9999999)
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/input_Business Name _customer_business_name'), 
+    0)
+
 WebUI.setText(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/input_Business Name _customer_business_name'), 
     'fake business')
 
@@ -68,10 +77,25 @@ WebUI.waitForElementVisible(findTestObject('Matts objects/attb/Page_ Fuse (ATTB 
 
 WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/button_Next'))
 
-WebUI.waitForElementVisible(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/h1_Products'), 0)
+WebUI.waitForElementClickable(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/span_Yes'), 
+    0)
 
 WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/span_Yes'))
 
-WebUI.selectOptionByIndex(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/input_Available Products_form-control'), 
-    4)
+WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/input_Available Products_form-control'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/a_Uverse  6 mbps'))
+
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/attb/products next/Page_ Fuse (ATTB qa)/button_Next'), 30)
+
+WebUI.click(findTestObject('Matts objects/attb/products next/Page_ Fuse (ATTB qa)/button_Next'))
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/attb/schedule/Page_ Fuse (ATTB qa)/a_Status Log'), 0)
+
+WebUI.click(findTestObject('Matts objects/attb/schedule/Page_ Fuse (ATTB qa)/button_Schedule'))
+
+WebUI.waitForElementVisible(findTestObject('Matts objects/attb/schedule/Page_ Fuse (ATTB qa)/button_Create an Additional Order'), 
+    0)
 

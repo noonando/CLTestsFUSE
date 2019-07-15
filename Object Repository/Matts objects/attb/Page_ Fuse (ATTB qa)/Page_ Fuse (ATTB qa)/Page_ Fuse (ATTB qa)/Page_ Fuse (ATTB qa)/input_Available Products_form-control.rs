@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//input[@type='search']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'search' and @class = 'form-control']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -48,7 +52,7 @@
       <value>Search for option</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

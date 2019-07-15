@@ -12,13 +12,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-
-import groovy.time.TimeCategory
+import groovy.time.TimeCategory as TimeCategory
 
 currentDate = new Date()
-
-
 
 WebUI.openBrowser('https://fuse.staging.clearlink.com')
 
@@ -36,8 +32,7 @@ WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop upd
 
 WebUI.switchToWindowIndex('1')
 
-WebUI.setViewPortSize(1920, 1080)
-
+//WebUI.setViewPortSize(1920, 1080)
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'))
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name'), 
@@ -64,10 +59,6 @@ WebUI.selectOptionByIndex(findTestObject('Verizon SMB Object repo/Page_ Fuse (ve
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code'), 
     '33991')
 
-<<<<<<< HEAD
-=======
-//WebUI.scrollToElement(findTestObject('Veizon/Customer next button/Page_ Fuse (verizon qa)/button_Next'), 0)
->>>>>>> branch 'master' of https://github.com/noonando/CLTestsFUSE.git
 WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/button_Next'))
@@ -202,7 +193,4 @@ WebUI.click(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centuryli
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Create an Additional Order'), 
     120)
-
-
-WebUI.setText(new Date())
 
