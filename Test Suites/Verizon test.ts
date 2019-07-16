@@ -14,6 +14,6 @@
       <guid>3767a753-bb3a-46b7-bcfa-890b18f15a2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Fuse Happy Trail/Verizon</testCaseId>
+      <testCaseId>Test Cases/Matts sandbox/Verizon</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

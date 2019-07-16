@@ -14,6 +14,6 @@
       <guid>7d3a8b43-e2cf-4994-8157-a53b2f38fe92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Fuse Happy Trail/vzn smb</testCaseId>
+      <testCaseId>Test Cases/Matts sandbox/vzn smb</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
