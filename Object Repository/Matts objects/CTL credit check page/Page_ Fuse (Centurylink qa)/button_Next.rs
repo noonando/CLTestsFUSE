@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='2']/div/div/div/div[2]/div/div/button</value>
+         <value>//*[@id=&quot;2&quot;]/div/div[1]/div/div[2]/div/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -54,7 +54,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='2']/div/div/div/div[2]/div/div/button</value>
+      <value>//*[@id=&quot;2&quot;]/div/div[1]/div/div[2]/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

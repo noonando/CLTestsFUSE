@@ -1,0 +1,148 @@
+1
+00:00:00,554 --> 00:00:00,560
+1. openBrowser("https://fuse.staging.clearlink.com")
+
+2
+00:00:06,639 --> 00:00:06,641
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "attb.qa@clearlink.com")
+
+3
+00:00:07,137 --> 00:00:07,140
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+4
+00:00:07,408 --> 00:00:07,410
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:11,471 --> 00:00:11,472
+17. waitForPageLoad(30)
+
+6
+00:00:11,873 --> 00:00:11,874
+21. maximizeWindow()
+
+7
+00:00:13,051 --> 00:00:13,052
+25. click(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/a_ATTB"))
+
+8
+00:00:13,288 --> 00:00:13,290
+29. switchToWindowIndex("1")
+
+9
+00:00:13,412 --> 00:00:13,414
+33. waitForElementClickable(findTestObject("vnzmb customer slab/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), 0)
+
+10
+00:00:16,461 --> 00:00:16,463
+37. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"))
+
+11
+00:00:16,607 --> 00:00:16,609
+41. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), "Test")
+
+12
+00:00:17,040 --> 00:00:17,041
+45. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name"), "object")
+
+13
+00:00:17,517 --> 00:00:17,519
+49. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email"), "Test@testing.com")
+
+14
+00:00:18,406 --> 00:00:18,407
+53. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number"), "5464987854")
+
+15
+00:00:19,177 --> 00:00:19,180
+57. click(findTestObject("VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes"))
+
+16
+00:00:19,409 --> 00:00:19,411
+61. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1"), "1316 lavaca ct")
+
+17
+00:00:19,680 --> 00:00:19,681
+65. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city"), "Cape Coral")
+
+18
+00:00:20,457 --> 00:00:20,458
+69. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama"), 10)
+
+19
+00:00:20,782 --> 00:00:20,783
+73. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code"), "33991")
+
+20
+00:00:21,193 --> 00:00:21,194
+77. scrollToPosition(9999999, 9999999)
+
+21
+00:00:21,281 --> 00:00:21,282
+81. waitForElementVisible(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/input_Business Name _customer_business_name"), 0)
+
+22
+00:00:21,387 --> 00:00:21,389
+85. setText(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/input_Business Name _customer_business_name"), "fake business")
+
+23
+00:00:22,006 --> 00:00:22,007
+89. scrollToElement(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/button_Next"), 0)
+
+24
+00:00:22,111 --> 00:00:22,113
+93. click(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/button_Next"))
+
+25
+00:00:22,322 --> 00:00:22,322
+97. waitForElementVisible(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/next products attb/Page_ Fuse (ATTB qa)/h1_Springboard"), 0)
+
+26
+00:00:23,448 --> 00:00:23,448
+101. click(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/button_Next"))
+
+27
+00:00:23,559 --> 00:00:23,561
+105. waitForElementClickable(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/span_Yes"), 0)
+
+28
+00:00:24,652 --> 00:00:24,652
+109. delay(1)
+
+29
+00:00:25,689 --> 00:00:25,690
+113. click(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/span_Yes"))
+
+30
+00:00:25,799 --> 00:00:25,800
+117. click(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/input_Available Products_form-control"), STOP_ON_FAILURE)
+
+31
+00:00:25,942 --> 00:00:25,943
+121. click(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/a_Uverse  6 mbps"))
+
+32
+00:00:26,118 --> 00:00:26,119
+125. delay(1)
+
+33
+00:00:27,132 --> 00:00:27,133
+129. waitForElementVisible(findTestObject("Matts objects/attb/products next/Page_ Fuse (ATTB qa)/button_Next"), 30)
+
+34
+00:00:27,194 --> 00:00:27,195
+133. click(findTestObject("Matts objects/attb/products next/Page_ Fuse (ATTB qa)/button_Next"))
+
+35
+00:00:27,309 --> 00:00:27,309
+137. waitForElementVisible(findTestObject("Matts objects/attb/schedule/Page_ Fuse (ATTB qa)/a_Status Log"), 0)
+
+36
+00:00:28,404 --> 00:00:28,406
+141. click(findTestObject("Matts objects/attb/schedule/Page_ Fuse (ATTB qa)/button_Schedule"))
+
+37
+00:00:28,531 --> 00:00:28,532
+145. waitForElementVisible(findTestObject("Matts objects/attb/schedule/Page_ Fuse (ATTB qa)/button_Create an Additional Order"), 0)
+

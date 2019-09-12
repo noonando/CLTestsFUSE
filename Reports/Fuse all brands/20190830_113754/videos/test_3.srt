@@ -1,0 +1,32 @@
+1
+00:00:00,232 --> 00:00:00,232
+1. openBrowser("")
+
+2
+00:00:06,395 --> 00:00:06,396
+5. navigateToUrl("https://fuse.staging.clearlink.com/#/")
+
+3
+00:00:07,619 --> 00:00:07,620
+9. setText(findTestObject("Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "frontpoint.qa@clearlink.com")
+
+4
+00:00:07,953 --> 00:00:07,954
+13. setEncryptedText(findTestObject("Page_Clearlink Authentication/input_Invalid username andor"), "h/wZhaWomj1SCqyUQOSQ/g==")
+
+5
+00:00:08,202 --> 00:00:08,203
+17. click(findTestObject("Page_Clearlink Authentication/button_Login"))
+
+6
+00:00:08,511 --> 00:00:08,512
+21. delay(3)
+
+7
+00:00:11,526 --> 00:00:11,527
+25. maximizeWindow()
+
+8
+00:00:15,669 --> 00:00:15,670
+29. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/a_FP"))
+

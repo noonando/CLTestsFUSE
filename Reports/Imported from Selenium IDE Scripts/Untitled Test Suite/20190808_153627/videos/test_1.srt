@@ -1,0 +1,40 @@
+1
+00:00:01,016 --> 00:00:01,021
+13. ----------------------------------------------------
+
+2
+00:00:01,053 --> 00:00:01,066
+17. openBrowser(baseUrl)
+
+3
+00:00:07,847 --> 00:00:07,848
+21. selenium = new com.kms.katalon.core.webui.driver.KatalonWebDriverBackedSelenium(baseUrl)
+
+4
+00:00:08,033 --> 00:00:08,036
+27. open | https://uatsso.clearlink.com/v1/auth/?client_id=93689a31e7c577342a1ff51124fff9a57ad48ef455bd203fa1c37fd61fa16298&amp;response_type=code&amp;redirect_uri=http%3A%2F%2Ffuse.staging.clearlink.com&amp;scope=read+write&amp;state=1a30914c-9005-4c9d-a1ca-4108243b1d22 | 
+
+5
+00:00:08,334 --> 00:00:08,335
+33. click | id=usr | 
+
+6
+00:00:08,645 --> 00:00:08,647
+39. type | id=usr | centurylink.qa@clearlink.com
+
+7
+00:00:08,856 --> 00:00:08,857
+45. click | id=pwd | 
+
+8
+00:00:09,029 --> 00:00:09,030
+51. type | id=pwd | Clink2019
+
+9
+00:00:09,202 --> 00:00:09,203
+57. click | id=login-btn | 
+
+10
+00:00:09,515 --> 00:00:09,517
+61. closeBrowser()
+

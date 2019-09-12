@@ -1,0 +1,32 @@
+1
+00:00:00,323 --> 00:00:00,326
+1. currentDate = new java.util.Date()
+
+2
+00:00:00,355 --> 00:00:00,357
+5. openBrowser("https://fuse.staging.clearlink.com")
+
+3
+00:00:07,876 --> 00:00:07,877
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "centurylink.qa@clearlink.com")
+
+4
+00:00:08,211 --> 00:00:08,212
+13. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+5
+00:00:08,498 --> 00:00:08,499
+17. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+6
+00:00:08,948 --> 00:00:08,949
+21. waitForPageLoad(3)
+
+7
+00:00:08,979 --> 00:00:08,979
+25. maximizeWindow()
+
+8
+00:00:13,155 --> 00:00:13,156
+29. click(findTestObject("All screen pop updated/Page_ Fuse all screen pop updated/a_EMBARQ"))
+

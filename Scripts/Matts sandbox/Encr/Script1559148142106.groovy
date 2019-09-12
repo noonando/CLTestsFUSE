@@ -20,7 +20,7 @@ WebUI.navigateToUrl('https://fuse.staging.clearlink.com/#/')
 
 WebUI.setText(findTestObject('Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'enercare.qa@clearlink.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Clearlink Authentication/input_Invalid username andor'), 'h/wZhaWomj0Z9KKIpnVNaw==')
+WebUI.setEncryptedText(findTestObject('Page_Clearlink Authentication/input_Invalid username andor'), 'h/wZhaWomj04dZdXbz2UUQ==')
 
 WebUI.click(findTestObject('Page_Clearlink Authentication/button_Login'))
 
@@ -41,26 +41,74 @@ WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input
 
 WebUI.click(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes'))
 
-WebUI.setText(findTestObject('Page_ Fuse (Scott Patterson)/input_Street Address _customer_addresses_primary_line1'), '123 Drive rd' )
+WebUI.selectOptionByIndex(findTestObject('encr customer slab/Page_ Fuse (Enercare qa)/select_Canada'), '0')
 
-WebUI.setText(findTestObject('matt encr/encr postal code'), A1A1A1)
+WebUI.setText(findTestObject('encr customer slab/Page_ Fuse (Enercare qa)/input_Street Address _customer_addresses_primary_line1'), 
+    '123 Drive rd')
 
-WebUI.selectOptionByIndex(findTestObject('Page_ Fuse (Scott Patterson)/select_AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon'), 
+WebUI.setText(findTestObject('encr customer slab/Page_ Fuse (Enercare qa)/input_Postal Code _customer_addresses_primary_postal_code'), 
+    'A1A1A1')
+
+WebUI.selectOptionByIndex(findTestObject('encr customer slab/Page_ Fuse (Enercare qa)/select_AlbertaBritish ColumbiaManitoba'), 
     2)
 
-WebUI.setText(findTestObject('Page_ Fuse (Scott Patterson)/input_City _customer_addresses_primary_city'), 'Townsville')
+WebUI.setText(findTestObject('encr customer slab/Page_ Fuse (Enercare qa)/input_City _customer_addresses_primary_city'), 
+    'Townsville')
 
 WebUI.click(findTestObject('Page_ Fuse (Scott Patterson)/label_Yes'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_ Fuse (Scott Patterson)/input_Email _customer_email'), 'test@mail.com')
+WebUI.setText(findTestObject('encr customer slab/Page_ Fuse (Enercare qa)/Page_ Fuse (Enercare qa)/input_Email _customer_email'), 
+    'test@mail.com')
 
 WebUI.scrollToPosition(9999999, 9999999)
 
-WebUI.click(findTestObject('EncrFolder/Page_ Fuse (Scott Patterson)/button_Next Encr'))
+WebUI.click(findTestObject('encr customer slab/Page_ Fuse (Enercare qa)/button_Next'))
 
-WebUI.delay(4)
+WebUI.waitForElementVisible(findTestObject('encr springboard/Page_ Fuse (Enercare qa)/h1_Springboard'), 0)
 
-WebUI.waitForPageLoad(2)
+WebUI.delay(3)
 
-WebUI.closeBrowser
+WebUI.click(findTestObject('encr springboard/Page_ Fuse (Enercare qa)/button_Next'))
+
+WebUI.waitForElementVisible(findTestObject('encr products/Page_ Fuse (Enercare qa)/h1_Products'), 0)
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('encr products/Page_ Fuse (Enercare qa)/input_Site ID _site_id'), '123654789')
+
+WebUI.click(findTestObject('encr products/Page_ Fuse (Enercare qa)/span_CA'))
+
+WebUI.click(findTestObject('encr products/Page_ Fuse (Enercare qa)/input_Available Products_form-control'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('encr products/Page_ Fuse (Enercare qa)/a_HF05 - Furnace No heat'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('encr products/Page_ Fuse (Enercare qa)/button_Next'))
+
+WebUI.waitForElementVisible(findTestObject('encr recaps/Page_ Fuse (Enercare qa)/h1_Recaps'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers first name and last name (spell back)'))
+
+WebUI.click(findTestObject('encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers phone number'))
+
+WebUI.click(findTestObject('encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers physical Address and Billing Address'))
+
+WebUI.click(findTestObject('encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers email address (spell back)'))
+
+WebUI.click(findTestObject('encr recaps/Page_ Fuse (Enercare qa)/span_Confirmed other recaps present in DOK'))
+
+WebUI.click(findTestObject('encr recaps/Page_ Fuse (Enercare qa)/button_Next'))
+
+WebUI.waitForElementVisible(findTestObject('encr summary page/Page_ Fuse (Enercare qa)/a_Status Log'), 0)
+
+WebUI.scrollToPosition(9999999, 9999999)
+
+WebUI.click(findTestObject('encr summary page/Page_ Fuse (Enercare qa)/button_Schedule'))
+
+WebUI.waitForElementClickable(findTestObject('encr summary page/Page_ Fuse (Enercare qa)/a_Status Log'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Matts objects/Encr schedule status'))
 

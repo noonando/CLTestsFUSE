@@ -1,0 +1,368 @@
+1
+00:00:00,971 --> 00:00:00,974
+1. currentDate = new java.util.Date()
+
+2
+00:00:01,027 --> 00:00:01,029
+5. openBrowser("https://fuse.staging.clearlink.com")
+
+3
+00:00:07,558 --> 00:00:07,560
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "centurylink.qa@clearlink.com")
+
+4
+00:00:08,017 --> 00:00:08,018
+13. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+5
+00:00:08,192 --> 00:00:08,193
+17. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+6
+00:00:11,633 --> 00:00:11,634
+21. waitForPageLoad(3)
+
+7
+00:00:11,896 --> 00:00:11,899
+25. maximizeWindow()
+
+8
+00:00:13,115 --> 00:00:13,116
+29. click(findTestObject("All screen pop updated/Page_ Fuse all screen pop updated/a_EMBARQ"))
+
+9
+00:00:13,316 --> 00:00:13,317
+33. switchToWindowIndex("1")
+
+10
+00:00:13,395 --> 00:00:13,397
+37. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"))
+
+11
+00:00:16,593 --> 00:00:16,594
+41. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), "Test")
+
+12
+00:00:17,199 --> 00:00:17,200
+45. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name"), "object")
+
+13
+00:00:18,002 --> 00:00:18,004
+49. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email"), "Test@testing.com")
+
+14
+00:00:20,064 --> 00:00:20,065
+53. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number"), "5464987854")
+
+15
+00:00:21,433 --> 00:00:21,435
+57. click(findTestObject("VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes"))
+
+16
+00:00:21,739 --> 00:00:21,742
+61. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1"), "1316 lavaca ct")
+
+17
+00:00:22,503 --> 00:00:22,504
+65. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city"), "Cape Coral")
+
+18
+00:00:23,211 --> 00:00:23,213
+69. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama"), 10)
+
+19
+00:00:23,690 --> 00:00:23,692
+73. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code"), "33991")
+
+20
+00:00:24,436 --> 00:00:24,437
+77. scrollToPosition(9999999, 9999999)
+
+21
+00:00:24,517 --> 00:00:24,518
+81. click(findTestObject("CTL full order/Page_ Fuse (Matthew Browning)/button_Next"))
+
+22
+00:00:24,805 --> 00:00:24,806
+85. waitForElementVisible(findTestObject("Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/h1_Products"), 290)
+
+23
+00:00:47,847 --> 00:00:47,848
+89. delay(1)
+
+24
+00:00:48,898 --> 00:00:48,899
+93. scrollToPosition(9999999, 9999999)
+
+25
+00:00:48,933 --> 00:00:48,934
+97. click(findTestObject("Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/button_select"))
+
+26
+00:00:49,266 --> 00:00:49,267
+101. scrollToElement(findTestObject("Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/button_Next"), 0)
+
+27
+00:00:49,350 --> 00:00:49,352
+105. click(findTestObject("Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/button_Next"))
+
+28
+00:00:49,506 --> 00:00:49,507
+109. waitForElementVisible(findTestObject("Matts objects/CTL credit check page/Page_ Fuse (Centurylink qa)/h1_CreditCheck"), 0)
+
+29
+00:00:51,042 --> 00:00:51,043
+113. setText(findTestObject("Matts objects/CTL credit check page/Page_ Fuse (Centurylink qa)/input_Date of Birth _el-input__inner"), "10041962")
+
+30
+00:00:51,394 --> 00:00:51,395
+117. setText(findTestObject("Matts objects/CTL credit check page/Page_ Fuse (Centurylink qa)/input_SSN _order_ssn"), "411111111")
+
+31
+00:00:52,399 --> 00:00:52,400
+121. selectOptionByIndex(findTestObject("Matts objects/CTL credit check page/Page_ Fuse (Centurylink qa)/select_Self InstallationProfessional Installation"), "1")
+
+32
+00:00:52,674 --> 00:00:52,675
+125. scrollToElement(findTestObject("Matts objects/CTL credit check page/Page_ Fuse (Centurylink qa)/span_Yes"), 0)
+
+33
+00:00:52,756 --> 00:00:52,757
+129. click(findTestObject("Matts objects/CTL credit check page/Page_ Fuse (Centurylink qa)/span_Yes"))
+
+34
+00:00:53,092 --> 00:00:53,093
+133. scrollToElement(findTestObject("Matts objects/CTL credit check page/Page_ Fuse (Centurylink qa)/button_Next"), 0)
+
+35
+00:00:53,198 --> 00:00:53,199
+137. click(findTestObject("Matts objects/CTL credit check page/Page_ Fuse (Centurylink qa)/button_Next"))
+
+36
+00:00:53,401 --> 00:00:53,402
+141. waitForElementVisible(findTestObject("Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/h1_Addons"), 120)
+
+37
+00:01:01,406 --> 00:01:01,407
+145. setText(findTestObject("Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/input_Addons_el-input__inner"), "08232019")
+
+38
+00:01:01,707 --> 00:01:01,708
+149. click(findTestObject("Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/button_select"))
+
+39
+00:01:01,986 --> 00:01:01,987
+153. scrollToElement(findTestObject("Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/install button select"), 0)
+
+40
+00:01:02,080 --> 00:01:02,081
+157. click(findTestObject("Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/install button select"))
+
+41
+00:01:02,308 --> 00:01:02,309
+161. scrollToElement(findTestObject("Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/button_Next"), 0)
+
+42
+00:01:02,368 --> 00:01:02,370
+165. click(findTestObject("Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/button_Next"))
+
+43
+00:01:02,505 --> 00:01:02,506
+169. waitForElementVisible(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/h1_Additional"), 0)
+
+44
+00:01:04,144 --> 00:01:04,145
+173. waitForElementClickable(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/span_Yes"), 0)
+
+45
+00:01:04,230 --> 00:01:04,230
+177. click(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/span_Yes"))
+
+46
+00:01:04,471 --> 00:01:04,471
+181. click(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/span_Yes credit card info"))
+
+47
+00:01:04,775 --> 00:01:04,776
+185. setText(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/input_Card Number _order_additionals_credit_card_info_card_number"), "5111005111051128")
+
+48
+00:01:06,694 --> 00:01:06,695
+189. setText(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/input_Expiration Date _el-input__inner"), "1122")
+
+49
+00:01:06,906 --> 00:01:06,907
+193. selectOptionByIndex(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/select_American ExpressVisaMaster CardDiscoverNovus"), "3")
+
+50
+00:01:07,365 --> 00:01:07,365
+197. scrollToElement(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/button_Next"), 0)
+
+51
+00:01:07,449 --> 00:01:07,449
+201. click(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/button_Next"))
+
+52
+00:01:07,612 --> 00:01:07,613
+205. waitForElementVisible(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/button_Proceed to Installation"), 0)
+
+53
+00:01:08,763 --> 00:01:08,764
+209. click(findTestObject("Matts objects/CTL additional/Page_ Fuse (Centurylink qa)/button_Proceed to Installation"))
+
+54
+00:01:08,941 --> 00:01:08,942
+213. waitForElementVisible(findTestObject("Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/h1_Installation"), 240)
+
+55
+00:01:37,808 --> 00:01:37,809
+217. waitForElementVisible(findTestObject("Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/button_select"), 0)
+
+56
+00:01:37,895 --> 00:01:37,896
+221. click(findTestObject("Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/button_select"))
+
+57
+00:01:38,046 --> 00:01:38,047
+225. scrollToElement(findTestObject("Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/button_Next"), 0)
+
+58
+00:01:38,117 --> 00:01:38,118
+229. click(findTestObject("Matts objects/CTL DTV/Page_ Fuse (Centurylink qa)/span_Yes"))
+
+59
+00:01:38,280 --> 00:01:38,281
+233. delay(2)
+
+60
+00:01:40,296 --> 00:01:40,297
+237. setText(findTestObject("Matts objects/CTL DTV/Page_ Fuse (Centurylink qa)/input_DirecTV Billing ID ___BVID__840"), "8975612")
+
+61
+00:01:40,634 --> 00:01:40,636
+241. setText(findTestObject("Matts objects/CTL DTV/Page_ Fuse (Centurylink qa)/input_DirecTV Pricing ___BVID__843"), "50")
+
+62
+00:01:40,935 --> 00:01:40,935
+245. click(findTestObject("Matts objects/CTL DTV/Page_ Fuse (Centurylink qa)/button_Open Opus"))
+
+63
+00:01:41,092 --> 00:01:41,093
+249. verifyAlertNotPresent(30, STOP_ON_FAILURE)
+
+64
+00:02:11,460 --> 00:02:11,460
+253. switchToWindowIndex(1)
+
+65
+00:02:11,497 --> 00:02:11,498
+257. delay(2)
+
+66
+00:02:13,523 --> 00:02:13,524
+261. click(findTestObject("Matts objects/CTL installation page/Page_ Fuse (Centurylink qa)/button_Next"))
+
+67
+00:02:13,673 --> 00:02:13,674
+265. waitForElementVisible(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/h1_Recaps"), 0)
+
+68
+00:02:14,923 --> 00:02:14,924
+269. delay(2)
+
+69
+00:02:16,944 --> 00:02:16,945
+273. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 1"))
+
+70
+00:02:17,161 --> 00:02:17,162
+277. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 2"))
+
+71
+00:02:17,306 --> 00:02:17,307
+281. scrollToElement(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 3"), 0)
+
+72
+00:02:17,384 --> 00:02:17,385
+285. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 3"))
+
+73
+00:02:17,551 --> 00:02:17,552
+289. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 4"))
+
+74
+00:02:17,695 --> 00:02:17,695
+293. scrollToElement(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 4"), 0)
+
+75
+00:02:17,750 --> 00:02:17,751
+297. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 5"))
+
+76
+00:02:17,882 --> 00:02:17,883
+301. scrollToElement(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 6"), 0)
+
+77
+00:02:17,949 --> 00:02:17,950
+305. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 6"))
+
+78
+00:02:18,062 --> 00:02:18,063
+309. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 7"))
+
+79
+00:02:18,233 --> 00:02:18,234
+313. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 8"))
+
+80
+00:02:18,367 --> 00:02:18,368
+317. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 9"))
+
+81
+00:02:18,496 --> 00:02:18,497
+321. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 10"))
+
+82
+00:02:18,647 --> 00:02:18,648
+325. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 11"))
+
+83
+00:02:18,813 --> 00:02:18,813
+329. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 12"))
+
+84
+00:02:18,940 --> 00:02:18,941
+333. scrollToElement(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/button_Next"), 0)
+
+85
+00:02:19,125 --> 00:02:19,126
+337. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 13"))
+
+86
+00:02:19,239 --> 00:02:19,240
+341. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 14"))
+
+87
+00:02:19,378 --> 00:02:19,379
+345. click(findTestObject("Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/button_Next"))
+
+88
+00:02:19,514 --> 00:02:19,514
+349. waitForElementVisible(findTestObject("Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/a_Status Log"), 120)
+
+89
+00:02:20,695 --> 00:02:20,696
+353. scrollToElement(findTestObject("Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Schedule"), 0)
+
+90
+00:02:20,745 --> 00:02:20,746
+357. click(findTestObject("Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Schedule"))
+
+91
+00:02:21,122 --> 00:02:21,123
+361. waitForElementClickable(findTestObject("Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/a_Status Log"), 35)
+
+92
+00:02:21,180 --> 00:02:21,180
+365. delay(4)
+

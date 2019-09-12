@@ -1,0 +1,28 @@
+1
+00:00:00,741 --> 00:00:00,746
+1. openBrowser("https://fuse.staging.clearlink.com")
+
+2
+00:00:09,141 --> 00:00:09,143
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "attb.qa@clearlink.com")
+
+3
+00:00:09,741 --> 00:00:09,743
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+4
+00:00:09,995 --> 00:00:09,997
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:10,451 --> 00:00:10,453
+17. waitForPageLoad(30)
+
+6
+00:00:10,569 --> 00:00:10,570
+21. maximizeWindow()
+
+7
+00:00:11,892 --> 00:00:11,893
+25. click(findTestObject("Matts objects/attb/Page_ Fuse (ATTB qa)/a_ATTB"))
+

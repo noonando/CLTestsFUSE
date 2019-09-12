@@ -6,12 +6,12 @@
    <elementGuidId>af5f9631-602b-42e5-a8a9-b6d3f7f197f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'select' or . = 'select')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'select' or . = 'select')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

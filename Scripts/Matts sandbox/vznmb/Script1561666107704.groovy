@@ -17,7 +17,7 @@ WebUI.openBrowser('fuse.staging.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'verizonsmb.qa@clearlink.com')
 
-WebUI.setText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
+WebUI.setText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019!')
 
 WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
@@ -93,6 +93,5 @@ WebUI.click(findTestObject('vznmb schedule/Page_ Fuse (verizonsmb qa)/button_Sch
 
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('vznmb schedule/Page_ Fuse (verizonsmb qa)/button_Create an Additional Order'), 
-    5)
+WebUI.verifyTextPresent('scheduled', false, FailureHandling.STOP_ON_FAILURE)
 

@@ -17,7 +17,7 @@ WebUI.openBrowser('fuse.staging.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'verizonsmb.qa@clearlink.com')
 
-WebUI.setText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
+WebUI.setText(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019!')
 
 WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
@@ -97,6 +97,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/Page_ Fuse (verizonsmb qa)/button_Next'))
 
+WebUI.delay(2)
+
 WebUI.waitForElementClickable(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Collect and confirm customer Name (spell back) address primary Contact Number'), 
     0)
 
@@ -156,6 +158,8 @@ WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/s
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Schedule'))
+
+WebUI.verifyTextPresent('scheduled', false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementClickable(findTestObject('vznmb schedule/Page_ Fuse (verizonsmb qa)/button_Create an Additional Order'))
 

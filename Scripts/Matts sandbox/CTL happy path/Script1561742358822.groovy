@@ -20,7 +20,7 @@ WebUI.openBrowser('https://fuse.staging.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'centurylink.qa@clearlink.com')
 
-WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
+WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019!')
 
 WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
@@ -63,7 +63,9 @@ WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('CTL full order/Page_ Fuse (Matthew Browning)/button_Next'))
 
-WebUI.waitForElementVisible(findTestObject('Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/h1_Products'), 90)
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/h1_Products'), 290)
+
+WebUI.delay(1)
 
 //WebUI.scrollToElement(findTestObject('Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/button_select'), 0)
 WebUI.scrollToPosition(9999999, 9999999)
@@ -95,7 +97,7 @@ WebUI.click(findTestObject('Matts objects/CTL credit check page/Page_ Fuse (Cent
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/h1_Addons'), 120)
 
-WebUI.setText(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/input_Addons_el-input__inner'), '07312019')
+WebUI.setText(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/input_Addons_el-input__inner'), '09182019')
 
 WebUI.click(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/button_select'))
 
@@ -147,6 +149,8 @@ WebUI.click(findTestObject('Matts objects/CTL installation page/Page_ Fuse (Cent
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/h1_Recaps'), 0)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 1'))
 
 WebUI.click(findTestObject('Matts objects/CTL recaps/Page_ Fuse (Centurylink qa)/CTL recap 2'))
@@ -189,8 +193,13 @@ WebUI.waitForElementVisible(findTestObject('Matts objects/CTL summary page/Page_
 
 WebUI.scrollToElement(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Schedule'), 0)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Schedule'))
 
-WebUI.waitForElementVisible(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/button_Create an Additional Order'), 
-    120)
+WebUI.waitForElementVisible(findTestObject('Matts objects/CTL summary page/Page_ Fuse (Centurylink qa)/a_Status Log'), 0)
+
+WebUI.verifyTextPresent('SCHEDULED', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(4)
 

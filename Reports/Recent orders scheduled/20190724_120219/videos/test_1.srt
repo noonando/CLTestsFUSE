@@ -1,0 +1,52 @@
+1
+00:00:00,652 --> 00:00:00,671
+1. openBrowser("fuse.staging.clearlink.com")
+
+2
+00:00:07,102 --> 00:00:07,104
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "verizonsmb.qa@clearlink.com")
+
+3
+00:00:07,555 --> 00:00:07,557
+9. setText(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+4
+00:00:07,783 --> 00:00:07,785
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:11,341 --> 00:00:11,342
+17. maximizeWindow(STOP_ON_FAILURE)
+
+6
+00:00:12,633 --> 00:00:12,634
+21. delay(2)
+
+7
+00:00:14,687 --> 00:00:14,699
+25. waitForElementVisible(findTestObject("Matts objects/Recent Order/Page_ Fuse (verizonsmb qa)/h1_Recent Orders"), 0)
+
+8
+00:00:14,961 --> 00:00:14,962
+29. delay(2)
+
+9
+00:00:16,988 --> 00:00:16,991
+33. click(findTestObject("Matts objects/Recent Order/Page_ Fuse (verizonsmb qa)/label_Scheduled"))
+
+10
+00:00:17,188 --> 00:00:17,188
+37. waitForElementVisible(findTestObject("Matts objects/Recent Order/Page_ Fuse (verizonsmb qa)/button_Open"), 0)
+
+11
+00:00:17,352 --> 00:00:17,353
+41. click(findTestObject("Matts objects/Recent Order/Page_ Fuse (verizonsmb qa)/button_Open"))
+
+12
+00:00:17,524 --> 00:00:17,525
+45. switchToWindowIndex(1)
+
+13
+00:00:17,606 --> 00:00:17,607
+49. verifyElementVisible(findTestObject("Matts objects/Recent Order/Page_ Fuse (verizonsmb qa)/div_scheduled"), STOP_ON_FAILURE)
+

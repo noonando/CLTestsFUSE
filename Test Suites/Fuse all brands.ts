@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>f17a741f-f750-445b-baa0-f79918253a5e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Matts sandbox/CTL happy path</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -45,5 +45,29 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Matts sandbox/vznmb</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8909e389-a8c4-4558-925f-fc63e2e386bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Matts sandbox/Encr</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d5b059f-c410-4d8e-a74d-9f0e3b79ec40</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Matts sandbox/Frontier smb</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3f7f40f-ebba-45d7-a5e3-3edef2dd5e3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Matts sandbox/Vivint</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>512eeed7-fcd8-4241-a0ae-9f1c5d0ae710</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Matts sandbox/CTL qwest</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

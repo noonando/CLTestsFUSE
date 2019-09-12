@@ -20,7 +20,7 @@ WebUI.navigateToUrl('https://fuse.staging.clearlink.com/#/')
 
 WebUI.setText(findTestObject('Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'frontpoint.qa@clearlink.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Clearlink Authentication/input_Invalid username andor'), 'h/wZhaWomj1SCqyUQOSQ/g==')
+WebUI.setEncryptedText(findTestObject('Page_Clearlink Authentication/input_Invalid username andor'), 'h/wZhaWomj0Z9KKIpnVNaw==')
 
 WebUI.click(findTestObject('Page_Clearlink Authentication/button_Login'))
 
@@ -100,4 +100,6 @@ WebUI.click(findTestObject('Frontpoint/Page_ Fuse (Frontpoint qa)/span_Summary')
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/button_Schedule'))
+
+WebUI.verifyTextPresent('scheduled', false, FailureHandling.STOP_ON_FAILURE)
 

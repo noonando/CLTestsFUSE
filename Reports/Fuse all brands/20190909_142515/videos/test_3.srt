@@ -1,0 +1,168 @@
+1
+00:00:00,228 --> 00:00:00,228
+1. openBrowser("")
+
+2
+00:00:06,357 --> 00:00:06,358
+5. navigateToUrl("https://fuse.staging.clearlink.com/#/")
+
+3
+00:00:08,942 --> 00:00:08,942
+9. setText(findTestObject("Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "frontpoint.qa@clearlink.com")
+
+4
+00:00:09,175 --> 00:00:09,175
+13. setEncryptedText(findTestObject("Page_Clearlink Authentication/input_Invalid username andor"), "h/wZhaWomj0Z9KKIpnVNaw==")
+
+5
+00:00:09,412 --> 00:00:09,413
+17. click(findTestObject("Page_Clearlink Authentication/button_Login"))
+
+6
+00:00:14,872 --> 00:00:14,873
+21. delay(3)
+
+7
+00:00:17,901 --> 00:00:17,902
+25. maximizeWindow()
+
+8
+00:00:22,046 --> 00:00:22,046
+29. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/a_FP"))
+
+9
+00:00:22,209 --> 00:00:22,210
+33. switchToWindowIndex("1")
+
+10
+00:00:22,244 --> 00:00:22,245
+37. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name"), "Test")
+
+11
+00:00:25,258 --> 00:00:25,260
+41. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name"), "Person")
+
+12
+00:00:25,521 --> 00:00:25,521
+45. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number"), "564-654-5645")
+
+13
+00:00:25,964 --> 00:00:25,964
+49. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes"))
+
+14
+00:00:26,122 --> 00:00:26,122
+53. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/button_Next"))
+
+15
+00:00:26,264 --> 00:00:26,265
+57. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Street Address _customer_addresses_primary_line1"), "1316 lavaca ct")
+
+16
+00:00:27,584 --> 00:00:27,585
+61. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_City _customer_addresses_primary_city"), "Cape Coral")
+
+17
+00:00:27,954 --> 00:00:27,955
+65. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/legend_StateProvince"))
+
+18
+00:00:28,084 --> 00:00:28,085
+69. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/div_City StateProvince AlabamaAlaskaArizona"))
+
+19
+00:00:28,246 --> 00:00:28,247
+73. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_ZipPostal Code _customer_addresses_primary_postal_code"), "33991")
+
+20
+00:00:28,573 --> 00:00:28,573
+77. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Email _customer_email"), "test@testing.com")
+
+21
+00:00:29,126 --> 00:00:29,127
+81. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Order Confirmation Number _order_confirmation_number"), "123456789")
+
+22
+00:00:29,422 --> 00:00:29,423
+85. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/div_Email Order Confirmation Number"))
+
+23
+00:00:29,547 --> 00:00:29,548
+89. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/i_Available Products_open-indicator"))
+
+24
+00:00:29,661 --> 00:00:29,662
+93. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/a_Safe Home Select"))
+
+25
+00:00:29,869 --> 00:00:29,870
+97. scrollToPosition(99, 99)
+
+26
+00:00:29,905 --> 00:00:29,905
+101. delay(2)
+
+27
+00:00:31,916 --> 00:00:31,916
+105. click(findTestObject("Frontpoint/Page_ Fuse (Frontpoint qa)/button_Next"))
+
+28
+00:00:32,025 --> 00:00:32,026
+109. delay(2)
+
+29
+00:00:34,043 --> 00:00:34,044
+113. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Collect and confirm name (spell back)"))
+
+30
+00:00:34,147 --> 00:00:34,147
+117. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Collect and confirm the alternate contact n"))
+
+31
+00:00:34,265 --> 00:00:34,266
+121. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Repeat and confirm monitoring package selected"))
+
+32
+00:00:34,377 --> 00:00:34,377
+125. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Cover details on term monthly monitoring"))
+
+33
+00:00:34,511 --> 00:00:34,511
+129. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Explain DIY process"))
+
+34
+00:00:34,626 --> 00:00:34,626
+133. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Recap included equipment"))
+
+35
+00:00:34,765 --> 00:00:34,766
+137. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Set shipping expectations"))
+
+36
+00:00:34,900 --> 00:00:34,901
+141. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Cover date of first and future months payment date"))
+
+37
+00:00:35,009 --> 00:00:35,010
+145. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_Do I have permission to place this order"))
+
+38
+00:00:35,132 --> 00:00:35,133
+149. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/p_You also agree to enter into a"))
+
+39
+00:00:35,253 --> 00:00:35,253
+153. click(findTestObject("Frontpoint/Page_ Fuse (Frontpoint qa)/span_Summary"))
+
+40
+00:00:35,433 --> 00:00:35,434
+157. delay(3)
+
+41
+00:00:38,452 --> 00:00:38,453
+161. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/button_Schedule"))
+
+42
+00:00:38,600 --> 00:00:38,601
+165. verifyTextPresent("scheduled", false, STOP_ON_FAILURE)
+

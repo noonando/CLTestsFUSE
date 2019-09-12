@@ -17,7 +17,7 @@ WebUI.openBrowser('https://fuse.staging.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'verizon.qa@clearlink.com')
 
-WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019!')
+WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019@')
 
 WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
@@ -74,10 +74,8 @@ WebUI.setText(findTestObject('Veizon/Page_ Fuse (verizon qa)/input_Verizon Accou
 WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/span_No'))
 
 //WebUI.waitForElementClickable(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Select'), 0)
-
 //WebUI.scrollToElement(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Next'), 0)
 //WebUI.click(findTestObject('Verizon products and on/Page_ Fuse (verizon qa)/button_Select'))
-
 WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.waitForElementVisible(findTestObject('vzn product TV Ult/Page_ Fuse (verizon qa)/button_Select'), 0)
@@ -95,6 +93,8 @@ WebUI.click(findTestObject('Matts objects/select next'))
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/verizon/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/h1_Recaps'), 
     0)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Matts objects/vzn recap 1'))
 
@@ -145,5 +145,7 @@ WebUI.scrollToPosition(9999999, 9999999)
 
 WebUI.click(findTestObject('Matts objects/vzn schedule'))
 
-WebUI.scrollToPosition(100, 160)
+WebUI.waitForElementVisible(findTestObject('schedule status vzn'), 0)
+
+WebUI.verifyTextPresent('scheduled', false, FailureHandling.STOP_ON_FAILURE)
 

@@ -17,7 +17,7 @@ WebUI.openBrowser('https://fuse.staging.clearlink.com')
 
 WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'attb.qa@clearlink.com')
 
-WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019')
+WebUI.setText(findTestObject('UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd'), 'Clink2019!')
 
 WebUI.click(findTestObject('REST examples/uatlogin1/Page_Clearlink Authentication/button_Login'))
 
@@ -80,7 +80,11 @@ WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (
 WebUI.waitForElementClickable(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/span_Yes'), 
     0)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/span_Yes'))
+
+WebUI.setText(findTestObject('Matts objects/attb products/Page_ Fuse (ATTB qa)/input_BANBTN _order_dsi_order_id'), '12345-6789')
 
 WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/input_Available Products_form-control'), FailureHandling.STOP_ON_FAILURE)
 
@@ -96,6 +100,6 @@ WebUI.waitForElementVisible(findTestObject('Matts objects/attb/schedule/Page_ Fu
 
 WebUI.click(findTestObject('Matts objects/attb/schedule/Page_ Fuse (ATTB qa)/button_Schedule'))
 
-WebUI.waitForElementVisible(findTestObject('Matts objects/attb/schedule/Page_ Fuse (ATTB qa)/button_Create an Additional Order'), 
-    0)
+//WebUI.verifyAlertNotPresent(0)
+WebUI.verifyTextPresent('scheduled', false, FailureHandling.STOP_ON_FAILURE)
 

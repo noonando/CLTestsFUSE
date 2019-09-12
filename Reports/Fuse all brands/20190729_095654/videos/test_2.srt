@@ -1,0 +1,96 @@
+1
+00:00:00,465 --> 00:00:00,466
+1. currentDate = new java.util.Date()
+
+2
+00:00:00,520 --> 00:00:00,522
+5. openBrowser("https://fuse.staging.clearlink.com")
+
+3
+00:00:05,016 --> 00:00:05,017
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "centurylink.qa@clearlink.com")
+
+4
+00:00:05,302 --> 00:00:05,303
+13. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+5
+00:00:05,463 --> 00:00:05,464
+17. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+6
+00:00:09,142 --> 00:00:09,143
+21. waitForPageLoad(3)
+
+7
+00:00:09,164 --> 00:00:09,165
+25. maximizeWindow()
+
+8
+00:00:10,291 --> 00:00:10,292
+29. click(findTestObject("All screen pop updated/Page_ Fuse all screen pop updated/a_EMBARQ"))
+
+9
+00:00:10,469 --> 00:00:10,470
+33. switchToWindowIndex("1")
+
+10
+00:00:10,509 --> 00:00:10,510
+37. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"))
+
+11
+00:00:13,316 --> 00:00:13,317
+41. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), "Test")
+
+12
+00:00:13,700 --> 00:00:13,701
+45. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name"), "object")
+
+13
+00:00:14,094 --> 00:00:14,095
+49. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email"), "Test@testing.com")
+
+14
+00:00:14,926 --> 00:00:14,927
+53. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number"), "5464987854")
+
+15
+00:00:15,916 --> 00:00:15,917
+57. click(findTestObject("VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes"))
+
+16
+00:00:16,198 --> 00:00:16,199
+61. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1"), "1316 lavaca ct")
+
+17
+00:00:16,742 --> 00:00:16,743
+65. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city"), "Cape Coral")
+
+18
+00:00:17,108 --> 00:00:17,109
+69. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama"), 10)
+
+19
+00:00:17,457 --> 00:00:17,458
+73. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code"), "33991")
+
+20
+00:00:17,973 --> 00:00:17,974
+77. scrollToPosition(9999999, 9999999)
+
+21
+00:00:18,026 --> 00:00:18,026
+81. click(findTestObject("CTL full order/Page_ Fuse (Matthew Browning)/button_Next"))
+
+22
+00:00:18,244 --> 00:00:18,245
+85. waitForElementVisible(findTestObject("Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/h1_Products"), 90)
+
+23
+00:01:51,316 --> 00:01:51,316
+89. scrollToPosition(9999999, 9999999)
+
+24
+00:01:51,355 --> 00:01:51,356
+93. click(findTestObject("Matts objects/CTL products page/Page_ Fuse (Centurylink qa)/button_select"))
+
