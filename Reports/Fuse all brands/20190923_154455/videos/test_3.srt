@@ -1,0 +1,240 @@
+1
+00:00:00,253 --> 00:00:00,253
+1. openBrowser("https://fuse.staging.clearlink.com")
+
+2
+00:00:07,893 --> 00:00:07,894
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "verizon.qa@clearlink.com")
+
+3
+00:00:08,187 --> 00:00:08,188
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019@")
+
+4
+00:00:08,357 --> 00:00:08,358
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:12,101 --> 00:00:12,102
+17. waitForPageLoad(3)
+
+6
+00:00:12,145 --> 00:00:12,145
+21. maximizeWindow()
+
+7
+00:00:16,386 --> 00:00:16,387
+25. click(findTestObject("All screen pop updated/Page_ Fuse all screen pop updated/a_VZN"))
+
+8
+00:00:16,565 --> 00:00:16,566
+29. switchToWindowIndex("1")
+
+9
+00:00:16,591 --> 00:00:16,592
+33. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"))
+
+10
+00:00:20,716 --> 00:00:20,717
+37. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), "Test")
+
+11
+00:00:21,120 --> 00:00:21,121
+41. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name"), "object")
+
+12
+00:00:21,665 --> 00:00:21,666
+45. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email"), "Test@testing.com")
+
+13
+00:00:22,810 --> 00:00:22,811
+49. click(findTestObject("VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes"))
+
+14
+00:00:23,007 --> 00:00:23,008
+53. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1"), "1316 lavaca ct")
+
+15
+00:00:23,264 --> 00:00:23,266
+57. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city"), "Cape Coral")
+
+16
+00:00:23,674 --> 00:00:23,675
+61. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama"), 10)
+
+17
+00:00:24,099 --> 00:00:24,100
+65. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_ZipPostal Code _customer_addresses_primary_postal_code"), "33991")
+
+18
+00:00:24,653 --> 00:00:24,655
+69. scrollToPosition(9999999, 9999999)
+
+19
+00:00:24,756 --> 00:00:24,757
+73. delay(3)
+
+20
+00:00:27,777 --> 00:00:27,777
+77. click(findTestObject("Veizon/Page_ Fuse (verizon qa)/button_Next"))
+
+21
+00:00:27,919 --> 00:00:27,920
+81. waitForElementClickable(findTestObject("Matts objects/verizon/Page_ Fuse (verizon qa)/button_Login to Optix"), 0)
+
+22
+00:00:32,633 --> 00:00:32,634
+85. click(findTestObject("verizon next products/Page_ Fuse (verizon qa)/span_Products"))
+
+23
+00:00:32,816 --> 00:00:32,816
+89. setText(findTestObject("Veizon/Page_ Fuse (verizon qa)/input_Verizon Account Number _order_brand_account_number"), "123456789")
+
+24
+00:00:34,232 --> 00:00:34,233
+93. click(findTestObject("Veizon/Page_ Fuse (verizon qa)/span_No"))
+
+25
+00:00:34,351 --> 00:00:34,352
+97. scrollToPosition(9999999, 9999999)
+
+26
+00:00:34,385 --> 00:00:34,386
+101. waitForElementVisible(findTestObject("vzn product TV Ult/Page_ Fuse (verizon qa)/button_Select"), 0)
+
+27
+00:00:34,479 --> 00:00:34,479
+105. click(findTestObject("vzn product TV Ult/Page_ Fuse (verizon qa)/button_Select"))
+
+28
+00:00:34,608 --> 00:00:34,609
+109. click(findTestObject("Verizon products and on/Page_ Fuse (verizon qa)/button_Next"))
+
+29
+00:00:34,758 --> 00:00:34,760
+113. waitForElementVisible(findTestObject("Matts objects/verizon/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/h1_AddOns"), 0)
+
+30
+00:00:35,893 --> 00:00:35,894
+117. scrollToPosition(9999999, 9999999)
+
+31
+00:00:35,924 --> 00:00:35,925
+121. click(findTestObject("Matts objects/select next"))
+
+32
+00:00:36,065 --> 00:00:36,066
+125. waitForElementVisible(findTestObject("Matts objects/verizon/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/h1_Recaps"), 0)
+
+33
+00:00:37,721 --> 00:00:37,722
+129. delay(2)
+
+34
+00:00:39,736 --> 00:00:39,737
+133. click(findTestObject("Matts objects/vzn recap 1"))
+
+35
+00:00:39,861 --> 00:00:39,862
+137. click(findTestObject("Matts objects/vzn recap 2"))
+
+36
+00:00:40,060 --> 00:00:40,061
+141. click(findTestObject("Matts objects/vzn recap 3"))
+
+37
+00:00:40,303 --> 00:00:40,304
+145. click(findTestObject("Matts objects/vzn recap 4"))
+
+38
+00:00:40,489 --> 00:00:40,489
+149. click(findTestObject("Matts objects/vzn recap 5"))
+
+39
+00:00:40,625 --> 00:00:40,625
+153. click(findTestObject("Matts objects/vzn recap 6"))
+
+40
+00:00:40,769 --> 00:00:40,769
+157. click(findTestObject("Matts objects/vzn recap 7"))
+
+41
+00:00:40,938 --> 00:00:40,939
+161. click(findTestObject("Matts objects/vzn recap 8"))
+
+42
+00:00:41,098 --> 00:00:41,099
+165. click(findTestObject("Matts objects/vzn recap 9"))
+
+43
+00:00:41,232 --> 00:00:41,233
+169. click(findTestObject("Matts objects/vzn recap 10"))
+
+44
+00:00:41,361 --> 00:00:41,362
+173. scrollToElement(findTestObject("Matts objects/vzn recap 12"), 0)
+
+45
+00:00:41,429 --> 00:00:41,430
+177. delay(1)
+
+46
+00:00:42,445 --> 00:00:42,446
+181. click(findTestObject("Matts objects/vzn recap 11"))
+
+47
+00:00:42,544 --> 00:00:42,545
+185. click(findTestObject("Matts objects/vzn recap 12"))
+
+48
+00:00:42,706 --> 00:00:42,706
+189. click(findTestObject("Matts objects/vzn recap 13"))
+
+49
+00:00:42,845 --> 00:00:42,846
+193. scrollToElement(findTestObject("Matts objects/vzn next recaps"), 0)
+
+50
+00:00:42,902 --> 00:00:42,902
+197. delay(1)
+
+51
+00:00:43,918 --> 00:00:43,919
+201. click(findTestObject("Matts objects/vzn recap 14"))
+
+52
+00:00:44,039 --> 00:00:44,040
+205. click(findTestObject("Matts objects/vzn recap 15"))
+
+53
+00:00:44,167 --> 00:00:44,168
+209. click(findTestObject("Matts objects/vzn recap 16"))
+
+54
+00:00:44,325 --> 00:00:44,326
+213. click(findTestObject("Matts objects/vzn next recaps"))
+
+55
+00:00:44,457 --> 00:00:44,458
+217. waitForElementClickable(findTestObject("Matts objects/verizon/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/Page_ Fuse (verizon qa)/a_Status Log"), 0)
+
+56
+00:00:45,643 --> 00:00:45,643
+221. scrollToPosition(9999999, 9999999)
+
+57
+00:00:45,691 --> 00:00:45,692
+225. delay(1)
+
+58
+00:00:46,708 --> 00:00:46,709
+229. click(findTestObject("Matts objects/vzn schedule"))
+
+59
+00:00:46,951 --> 00:00:46,953
+233. waitForElementVisible(findTestObject("schedule status vzn"), 0)
+
+60
+00:00:52,776 --> 00:00:52,777
+237. verifyTextPresent("scheduled", false, STOP_ON_FAILURE)
+

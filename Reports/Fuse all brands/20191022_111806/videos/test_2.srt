@@ -1,0 +1,36 @@
+1
+00:00:00,375 --> 00:00:00,375
+1. openBrowser("https://fuse.staging.clearlink.com")
+
+2
+00:00:07,715 --> 00:00:07,716
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "verizon.qa@clearlink.com")
+
+3
+00:00:08,164 --> 00:00:08,166
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019@")
+
+4
+00:00:08,370 --> 00:00:08,371
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:12,545 --> 00:00:12,546
+17. waitForPageLoad(3)
+
+6
+00:00:13,046 --> 00:00:13,047
+21. maximizeWindow()
+
+7
+00:00:17,243 --> 00:00:17,244
+25. click(findTestObject("All screen pop updated/Page_ Fuse all screen pop updated/a_VZN"))
+
+8
+00:00:17,437 --> 00:00:17,438
+29. switchToWindowIndex("1")
+
+9
+00:00:17,484 --> 00:00:17,485
+33. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"))
+

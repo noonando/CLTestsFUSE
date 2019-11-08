@@ -1,0 +1,140 @@
+1
+00:00:00,378 --> 00:00:00,379
+1. openBrowser("fuse.staging.clearlink.com")
+
+2
+00:00:08,184 --> 00:00:08,184
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "verizonsmb.qa@clearlink.com")
+
+3
+00:00:08,463 --> 00:00:08,464
+9. setText(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019!")
+
+4
+00:00:08,668 --> 00:00:08,669
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:13,505 --> 00:00:13,506
+17. maximizeWindow(STOP_ON_FAILURE)
+
+6
+00:00:17,995 --> 00:00:17,995
+21. delay(2)
+
+7
+00:00:20,010 --> 00:00:20,010
+25. click(findTestObject("vznmb customer page/Page_ Fuse (verizonsmb qa)/a_VZNMB"))
+
+8
+00:00:20,225 --> 00:00:20,226
+29. delay(2)
+
+9
+00:00:22,263 --> 00:00:22,264
+33. switchToWindowIndex(1)
+
+10
+00:00:22,330 --> 00:00:22,331
+37. delay(2)
+
+11
+00:00:24,354 --> 00:00:24,356
+41. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), OPTIONAL)
+
+12
+00:00:28,544 --> 00:00:28,545
+45. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), "Changedagain4")
+
+13
+00:00:30,473 --> 00:00:30,473
+49. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name"), "Scott")
+
+14
+00:00:31,437 --> 00:00:31,438
+53. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email"), "Miloiscool@testing.com")
+
+15
+00:00:33,596 --> 00:00:33,597
+57. delay(3)
+
+16
+00:00:36,611 --> 00:00:36,611
+61. click(findTestObject("vznmb customer page/Page_ Fuse (verizonsmb qa)/span_Yes"))
+
+17
+00:00:36,817 --> 00:00:36,817
+65. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1"), "1222 w athleen dr")
+
+18
+00:00:37,082 --> 00:00:37,082
+69. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city"), "West Jordan")
+
+19
+00:00:37,481 --> 00:00:37,482
+73. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama"), "45")
+
+20
+00:00:38,294 --> 00:00:38,295
+77. setText(findTestObject("vnzmb customer slab/Page_ Fuse (verizonsmb qa)/input_Business Name _order_business_name"), "New business")
+
+21
+00:00:39,165 --> 00:00:39,166
+81. scrollToElement(findTestObject("vnzmb customer slab/Page_ Fuse (verizonsmb qa)/button_Next"), 0)
+
+22
+00:00:39,210 --> 00:00:39,210
+85. click(findTestObject("vnzmb customer slab/Page_ Fuse (verizonsmb qa)/button_Next"))
+
+23
+00:00:39,343 --> 00:00:39,343
+89. delay(4)
+
+24
+00:00:43,364 --> 00:00:43,364
+93. click(findTestObject("vznmb customer page/Page_ Fuse (verizonsmb qa)/next-button"))
+
+25
+00:00:43,466 --> 00:00:43,467
+97. setText(findTestObject("vznmb products/Page_ Fuse (verizonsmb qa)/input_Verizon Order Number (MON) _order_brand_account_number"), "123654789")
+
+26
+00:00:44,522 --> 00:00:44,523
+101. selectOptionByIndex(findTestObject("vznmb products/Page_ Fuse (verizonsmb qa)/select_FIOSNON-FIOSOut of Footprint"), "2")
+
+27
+00:00:44,817 --> 00:00:44,818
+105. click(findTestObject("vznmb products/Page_ Fuse (verizonsmb qa)/input_Available Products_form-control"), STOP_ON_FAILURE)
+
+28
+00:00:45,148 --> 00:00:45,149
+109. delay(2)
+
+29
+00:00:47,198 --> 00:00:47,198
+113. click(findTestObject("vznmb products/Page_ Fuse (verizonsmb qa)/Page_ Fuse (verizonsmb qa)/a_BUS DTL TERM 2 YR ALT - AUTORENEW"))
+
+30
+00:00:47,382 --> 00:00:47,383
+117. delay(2)
+
+31
+00:00:49,400 --> 00:00:49,401
+121. click(findTestObject("vznmb products/Page_ Fuse (verizonsmb qa)/button_Next"))
+
+32
+00:00:49,530 --> 00:00:49,531
+125. delay(4)
+
+33
+00:00:53,546 --> 00:00:53,546
+129. click(findTestObject("vznmb schedule/Page_ Fuse (verizonsmb qa)/button_Schedule"))
+
+34
+00:00:53,684 --> 00:00:53,684
+133. delay(5)
+
+35
+00:00:58,702 --> 00:00:58,702
+137. verifyTextPresent("scheduled", false, STOP_ON_FAILURE)
+

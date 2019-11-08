@@ -25,7 +25,7 @@ WebUI.waitForPageLoad(30)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/a_ATTB'))
+WebUI.click(findTestObject('Matts objects/attb/ATTB button'))
 
 WebUI.switchToWindowIndex('1')
 
@@ -43,9 +43,8 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email'), 'Test@testing.com')
 
-WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
-    '5464987854')
-
+//WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
+//    '5464987854')
 WebUI.click(findTestObject('VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes'))
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1'), 
@@ -74,6 +73,8 @@ WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/next products attb/Page_ Fuse (ATTB qa)/h1_Springboard'), 
     0)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Matts objects/attb/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/Page_ Fuse (ATTB qa)/button_Next'))
 

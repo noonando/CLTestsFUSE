@@ -36,9 +36,8 @@ WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input
 
 WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name'), 'Person')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
-    '564-654-5645')
-
+//WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
+//    '564-654-5645')
 WebUI.click(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes'))
 
 WebUI.click(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/button_Next'))
@@ -49,9 +48,7 @@ WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input
 WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_City _customer_addresses_primary_city'), 
     'Cape Coral')
 
-WebUI.click(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/legend_StateProvince'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/div_City StateProvince AlabamaAlaskaArizona'))
+WebUI.selectOptionByIndex(findTestObject('Frontpoint/Page_ Fuse (Frontpoint qa)/select_AlabamaAlaskaArizonaArkansas'), '11')
 
 WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_ZipPostal Code _customer_addresses_primary_postal_code'), 
     '33991')

@@ -1,0 +1,76 @@
+1
+00:00:00,911 --> 00:00:00,924
+1. openBrowser("")
+
+2
+00:00:09,082 --> 00:00:09,084
+5. navigateToUrl("https://fuse.staging.clearlink.com/#/")
+
+3
+00:00:10,364 --> 00:00:10,366
+9. setText(findTestObject("Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "frontpoint.qa@clearlink.com")
+
+4
+00:00:11,271 --> 00:00:11,272
+13. setEncryptedText(findTestObject("Page_Clearlink Authentication/input_Invalid username andor"), "h/wZhaWomj0Z9KKIpnVNaw==")
+
+5
+00:00:11,803 --> 00:00:11,805
+17. click(findTestObject("Page_Clearlink Authentication/button_Login"))
+
+6
+00:00:15,767 --> 00:00:15,768
+21. delay(3)
+
+7
+00:00:18,835 --> 00:00:18,837
+25. maximizeWindow()
+
+8
+00:00:23,002 --> 00:00:23,003
+29. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/a_FP"))
+
+9
+00:00:23,367 --> 00:00:23,368
+33. switchToWindowIndex("1")
+
+10
+00:00:23,546 --> 00:00:23,548
+37. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name"), "Test")
+
+11
+00:00:28,400 --> 00:00:28,401
+41. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name"), "Person")
+
+12
+00:00:29,008 --> 00:00:29,010
+45. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes"))
+
+13
+00:00:29,232 --> 00:00:29,233
+49. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/button_Next"))
+
+14
+00:00:29,376 --> 00:00:29,377
+53. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Street Address _customer_addresses_primary_line1"), "1316 lavaca ct")
+
+15
+00:00:29,629 --> 00:00:29,630
+57. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_City _customer_addresses_primary_city"), "Cape Coral")
+
+16
+00:00:30,152 --> 00:00:30,154
+61. selectOptionByIndex(findTestObject("Frontpoint/Page_ Fuse (Frontpoint qa)/select_AlabamaAlaskaArizonaArkansas"), "11")
+
+17
+00:00:30,683 --> 00:00:30,684
+65. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_ZipPostal Code _customer_addresses_primary_postal_code"), "33991")
+
+18
+00:00:31,007 --> 00:00:31,008
+69. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Email _customer_email"), "test@testing.com")
+
+19
+00:00:32,021 --> 00:00:32,022
+73. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Order Confirmation Number _order_confirmation_number"), "123456789")
+

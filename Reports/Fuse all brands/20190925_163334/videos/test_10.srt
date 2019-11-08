@@ -1,0 +1,188 @@
+1
+00:00:00,210 --> 00:00:00,210
+1. openBrowser("https://fuse.staging.clearlink.com")
+
+2
+00:00:07,608 --> 00:00:07,609
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "viasat.1.qa@clearlink.com")
+
+3
+00:00:07,960 --> 00:00:07,960
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+4
+00:00:08,122 --> 00:00:08,123
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:11,809 --> 00:00:11,810
+17. waitForPageLoad(3)
+
+6
+00:00:11,881 --> 00:00:11,881
+21. maximizeWindow()
+
+7
+00:00:16,195 --> 00:00:16,195
+25. click(findTestObject("Matts objects/Viasat customer page/Page_ Fuse (Viasat qa)/a_VSAT"))
+
+8
+00:00:16,371 --> 00:00:16,371
+29. switchToWindowIndex("1")
+
+9
+00:00:16,438 --> 00:00:16,439
+33. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_First Name _customer_first_name"), "Test")
+
+10
+00:00:20,699 --> 00:00:20,700
+37. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Last Name _customer_last_name"), "viasat")
+
+11
+00:00:21,048 --> 00:00:21,048
+41. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Email _customer_emails_primary_email"), "test@testing.com")
+
+12
+00:00:21,604 --> 00:00:21,604
+45. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Zip Code _customer_addresses_primary_zip_code"), "84084")
+
+13
+00:00:21,858 --> 00:00:21,858
+49. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Street Address _customer_addresses_primary_line1"), "1222 W Athleen dr")
+
+14
+00:00:22,204 --> 00:00:22,205
+53. click(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/span_Yes"))
+
+15
+00:00:22,383 --> 00:00:22,384
+57. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_City _customer_addresses_primary_city"), "West Jordan")
+
+16
+00:00:22,764 --> 00:00:22,764
+61. selectOptionByIndex(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/select_AlabamaAlaskaArizonaArkansas"), 45)
+
+17
+00:00:23,423 --> 00:00:23,423
+65. click(findTestObject("Matts objects/Viasat customer page/Page_ Fuse (Viasat qa)/button_Okay"))
+
+18
+00:00:23,512 --> 00:00:23,512
+69. scrollToPosition(9999999, 9999999)
+
+19
+00:00:23,545 --> 00:00:23,545
+73. delay(1)
+
+20
+00:00:24,562 --> 00:00:24,562
+77. click(findTestObject("Matts objects/Viasat customer page/Page_ Fuse (Viasat qa)/button_Next"))
+
+21
+00:00:24,689 --> 00:00:24,690
+81. waitForElementPresent(findTestObject("Matts objects/viasat springboard/Page_ Fuse (Viasat qa)/h1_Springboard"), 0)
+
+22
+00:00:26,419 --> 00:00:26,420
+85. delay(1)
+
+23
+00:00:27,440 --> 00:00:27,440
+89. click(findTestObject("Matts objects/viasat springboard/Page_ Fuse (Viasat qa)/button_Next"))
+
+24
+00:00:27,549 --> 00:00:27,550
+93. waitForElementPresent(findTestObject("Matts objects/viasat products page/Page_ Fuse (Viasat qa)/h1_Products"), 0)
+
+25
+00:00:28,614 --> 00:00:28,614
+97. setText(findTestObject("Matts objects/viasat products page/Page_ Fuse (Viasat qa)/input_VIASAT Order Reference Number _reference_number"), "CL12345678")
+
+26
+00:00:28,911 --> 00:00:28,911
+101. click(findTestObject("Matts objects/viasat products page/Page_ Fuse (Viasat qa)/input_Available Products_form-control"))
+
+27
+00:00:29,057 --> 00:00:29,057
+105. click(findTestObject("Matts objects/viasat products page/Page_ Fuse (Viasat qa)/a_Unlimited Gold 30"))
+
+28
+00:00:29,248 --> 00:00:29,248
+109. delay(1)
+
+29
+00:00:30,259 --> 00:00:30,260
+113. click(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/button_Next"))
+
+30
+00:00:30,362 --> 00:00:30,363
+117. waitForElementPresent(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/h1_Recaps"), 0)
+
+31
+00:00:31,418 --> 00:00:31,418
+121. delay(2)
+
+32
+00:00:33,430 --> 00:00:33,430
+125. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Prepare the customer for whats a"))
+
+33
+00:00:33,532 --> 00:00:33,532
+129. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Credit-Check Statement As"))
+
+34
+00:00:33,673 --> 00:00:33,674
+133. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Im going to go over a recap of all"))
+
+35
+00:00:33,802 --> 00:00:33,802
+137. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Confirm customer Name (spell back) a"))
+
+36
+00:00:33,945 --> 00:00:33,945
+141. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Recap Package Details Open Recaps"))
+
+37
+00:00:34,098 --> 00:00:34,100
+145. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Recap Equipment Fees Open Recaps in"))
+
+38
+00:00:34,239 --> 00:00:34,240
+149. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Recap VOIP Open Recaps in Succeed for Package Sold"))
+
+39
+00:00:34,369 --> 00:00:34,370
+153. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_E-Billing Recap Open Recaps in Succeed for Package Sold"))
+
+40
+00:00:34,500 --> 00:00:34,500
+157. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Recap Tech Support"))
+
+41
+00:00:34,633 --> 00:00:34,633
+161. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/span_Pitch Home Security  Pitch Option 1 B"))
+
+42
+00:00:34,790 --> 00:00:34,791
+165. scrollToPosition(9999999, 9999999)
+
+43
+00:00:34,818 --> 00:00:34,818
+169. click(findTestObject("Matts objects/viasat recaps page/Page_ Fuse (Viasat qa)/button_Next"))
+
+44
+00:00:34,950 --> 00:00:34,951
+173. verifyElementVisible(findTestObject("Matts objects/viasat summary page/Page_ Fuse (Viasat qa)/a_Status Log"), STOP_ON_FAILURE)
+
+45
+00:00:36,050 --> 00:00:36,051
+177. delay(2)
+
+46
+00:00:38,063 --> 00:00:38,064
+181. click(findTestObject("Matts objects/viasat summary page/Page_ Fuse (Viasat qa)/button_Schedule"))
+
+47
+00:00:38,230 --> 00:00:38,231
+185. verifyTextPresent("scheduled", false)
+

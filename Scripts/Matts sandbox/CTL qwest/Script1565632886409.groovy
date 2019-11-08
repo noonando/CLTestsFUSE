@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import groovy.time.TimeCategory as TimeCategory
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 currentDate = new Date()
 
@@ -28,7 +30,7 @@ WebUI.waitForPageLoad(3)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/a_EMBARQ'))
+WebUI.click(findTestObject('Matts objects/CTL screen pop'))
 
 WebUI.switchToWindowIndex('1')
 
@@ -43,9 +45,8 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email'), 'Test@testing.com')
 
-WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
-    '5464987854')
-
+//WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
+//    '5464987854')
 WebUI.click(findTestObject('VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes'))
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1'), 
@@ -96,7 +97,7 @@ WebUI.click(findTestObject('Matts objects/CTL credit check page/Page_ Fuse (Cent
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/h1_Addons'), 120)
 
-WebUI.setText(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/input_Addons_el-input__inner'), '10032019')
+WebUI.setText(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/input_Addons_el-input__inner'), '11072019')
 
 WebUI.click(findTestObject('Matts objects/CTL Addons/Page_ Fuse (Centurylink qa)/button_select'))
 

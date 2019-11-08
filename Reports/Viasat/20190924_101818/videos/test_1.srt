@@ -1,0 +1,36 @@
+1
+00:00:01,922 --> 00:00:01,931
+1. openBrowser("https://fuse.staging.clearlink.com")
+
+2
+00:00:24,208 --> 00:00:24,210
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "viasat.1.qa@clearlink.com")
+
+3
+00:00:24,710 --> 00:00:24,712
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+4
+00:00:24,993 --> 00:00:24,996
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:03:53,345 --> 00:03:53,347
+17. waitForPageLoad(3)
+
+6
+00:03:53,571 --> 00:03:53,572
+21. maximizeWindow()
+
+7
+00:03:57,952 --> 00:03:57,954
+25. click(findTestObject("Matts objects/Viasat customer page/Page_ Fuse (Viasat qa)/a_VSAT"))
+
+8
+00:03:58,253 --> 00:03:58,255
+29. switchToWindowIndex("1")
+
+9
+00:03:58,353 --> 00:03:58,355
+33. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_First Name _customer_first_name"), "Test")
+

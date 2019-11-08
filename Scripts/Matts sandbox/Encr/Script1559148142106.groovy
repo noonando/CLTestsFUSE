@@ -36,8 +36,8 @@ WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input
 
 WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name'), 'Person')
 
-WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
-    '564-654-5645')
+//WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
+//    '564-654-5645')
 
 WebUI.click(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes'))
 

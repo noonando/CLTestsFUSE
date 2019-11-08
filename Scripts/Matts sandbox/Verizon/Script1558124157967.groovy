@@ -39,8 +39,8 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 
 WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email'), 'Test@testing.com')
 
-WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
-    '5464987854')
+//WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
+//    '5464987854')
 
 WebUI.click(findTestObject('VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes'))
 
@@ -58,12 +58,11 @@ WebUI.setText(findTestObject('Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)
 //WebUI.scrollToElement(findTestObject('verizon next products/Page_ Fuse (verizon qa)/button_Next'), 0)
 WebUI.scrollToPosition(9999999, 9999999)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/button_Next'))
 
-WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/button_Next'))
-
+//WebUI.click(findTestObject('Veizon/Page_ Fuse (verizon qa)/button_Next'))
 WebUI.waitForElementClickable(findTestObject('Matts objects/verizon/Page_ Fuse (verizon qa)/button_Login to Optix'), 0)
 
 WebUI.click(findTestObject('verizon next products/Page_ Fuse (verizon qa)/span_Products'))
@@ -142,6 +141,8 @@ WebUI.waitForElementClickable(findTestObject('Matts objects/verizon/Page_ Fuse (
     0)
 
 WebUI.scrollToPosition(9999999, 9999999)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Matts objects/vzn schedule'))
 

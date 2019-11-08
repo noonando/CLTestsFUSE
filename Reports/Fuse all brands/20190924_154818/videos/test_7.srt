@@ -1,0 +1,196 @@
+1
+00:00:00,215 --> 00:00:00,215
+1. openBrowser("fuse.staging.clearlink.com")
+
+2
+00:00:07,643 --> 00:00:07,643
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "frontiersmb.qa@clearlink.com")
+
+3
+00:00:07,880 --> 00:00:07,880
+9. setText(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019!")
+
+4
+00:00:08,020 --> 00:00:08,020
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:11,498 --> 00:00:11,499
+17. maximizeWindow(STOP_ON_FAILURE)
+
+6
+00:00:15,653 --> 00:00:15,654
+21. delay(2)
+
+7
+00:00:17,660 --> 00:00:17,660
+25. click(findTestObject("Matts objects/FTRB customer slab/Page_ Fuse (Frontiersmb qa)/a_FTRB"))
+
+8
+00:00:17,789 --> 00:00:17,789
+29. delay(2)
+
+9
+00:00:19,824 --> 00:00:19,825
+33. switchToWindowIndex(1)
+
+10
+00:00:19,848 --> 00:00:19,849
+37. delay(2)
+
+11
+00:00:21,866 --> 00:00:21,866
+41. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), "John")
+
+12
+00:00:26,312 --> 00:00:26,312
+45. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name"), "Scott")
+
+13
+00:00:26,696 --> 00:00:26,697
+49. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email"), "Miloiscool@testing.com")
+
+14
+00:00:28,040 --> 00:00:28,041
+53. waitForElementClickable(findTestObject("vznmb customer page/Page_ Fuse (verizonsmb qa)/span_Yes"), 0)
+
+15
+00:00:28,100 --> 00:00:28,100
+57. click(findTestObject("VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes"))
+
+16
+00:00:28,254 --> 00:00:28,255
+61. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1"), "1222 w athleen dr")
+
+17
+00:00:28,436 --> 00:00:28,436
+65. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city"), "West Jordan")
+
+18
+00:00:28,890 --> 00:00:28,891
+69. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama"), "45")
+
+19
+00:00:29,532 --> 00:00:29,532
+73. scrollToPosition(9999999, 9999999)
+
+20
+00:00:29,564 --> 00:00:29,564
+77. click(findTestObject("Matts objects/FTRB customer slab/Page_ Fuse (Frontiersmb qa)/span_Yes"))
+
+21
+00:00:29,826 --> 00:00:29,826
+81. setText(findTestObject("Matts objects/Ftrb customer/Page_ Fuse (Frontiersmb qa)/input_Business Name _order_business_name"), "Test company")
+
+22
+00:00:30,620 --> 00:00:30,621
+85. click(findTestObject("Matts objects/Ftrb customer/Page_ Fuse (Frontiersmb qa)/span_NA"))
+
+23
+00:00:30,784 --> 00:00:30,785
+89. click(findTestObject("Matts objects/FTRB customer slab/Page_ Fuse (Frontiersmb qa)/Page_ Fuse (Frontiersmb qa)/button_Next"))
+
+24
+00:00:30,912 --> 00:00:30,913
+93. waitForElementVisible(findTestObject("Matts objects/ftrb products/Page_ Fuse (Frontiersmb qa)/h1_Products"), 0)
+
+25
+00:00:32,521 --> 00:00:32,522
+97. setText(findTestObject("Matts objects/ftrb products/Page_ Fuse (Frontiersmb qa)/input_Frontier Order ID _frontierOrderID"), "321654987")
+
+26
+00:00:32,744 --> 00:00:32,745
+101. setText(findTestObject("Matts objects/ftrb products/Page_ Fuse (Frontiersmb qa)/input_Frontier Account Number _frontierAccountNumber"), "123456789")
+
+27
+00:00:32,962 --> 00:00:32,963
+105. setText(findTestObject("Matts objects/ftrb products/Page_ Fuse (Frontiersmb qa)/input_Installation Date _el-input__inner"), "07/10/2022")
+
+28
+00:00:33,156 --> 00:00:33,156
+109. selectOptionByIndex(findTestObject("Matts objects/ftrb products/Page_ Fuse (Frontiersmb qa)/select_8am-12pm9am-1pm10am-2pm11am-3pm12pm-4pm1pm-5pm"), 3)
+
+29
+00:00:33,364 --> 00:00:33,365
+113. click(findTestObject("Matts objects/ftrb products/Page_ Fuse (Frontiersmb qa)/input_Available Products_form-control"), STOP_ON_FAILURE)
+
+30
+00:00:33,519 --> 00:00:33,520
+117. click(findTestObject("Matts objects/ftrb products/Page_ Fuse (Frontiersmb qa)/Page_ Fuse (Frontiersmb qa)/a_CTF Internet - FiOS 300300"))
+
+31
+00:00:33,699 --> 00:00:33,699
+121. delay(2)
+
+32
+00:00:35,742 --> 00:00:35,743
+125. click(findTestObject("Matts objects/ftrb products/Page_ Fuse (Frontiersmb qa)/button_Next"))
+
+33
+00:00:35,843 --> 00:00:35,843
+129. delay(3)
+
+34
+00:00:38,853 --> 00:00:38,853
+133. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Collect and confirm customer Name"))
+
+35
+00:00:38,993 --> 00:00:38,994
+137. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Repeat name of package package"))
+
+36
+00:00:39,122 --> 00:00:39,122
+141. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Mention to the customer about Upfront"))
+
+37
+00:00:39,229 --> 00:00:39,230
+145. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Read below Installation script for the"))
+
+38
+00:00:39,345 --> 00:00:39,345
+149. scrollToElement(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Mention the Customer Service number- 1"), 0)
+
+39
+00:00:39,394 --> 00:00:39,395
+153. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Mention the Customer Service number- 1"))
+
+40
+00:00:39,499 --> 00:00:39,500
+157. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Read disclosure (NEW VERSION) for"))
+
+41
+00:00:39,611 --> 00:00:39,612
+161. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Read below SMB Terms  Conditions"))
+
+42
+00:00:39,728 --> 00:00:39,729
+165. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_If FIOS is Sold play the Frontier FIOS Installation"))
+
+43
+00:00:39,835 --> 00:00:39,835
+169. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/span_Pitch Home Security to the customerPitch"))
+
+44
+00:00:39,945 --> 00:00:39,945
+173. scrollToPosition(9999999, 9999999)
+
+45
+00:00:39,967 --> 00:00:39,967
+177. click(findTestObject("Matts objects/ftrb recaps 2/Page_ Fuse (Frontiersmb qa)/button_Next"))
+
+46
+00:00:40,129 --> 00:00:40,129
+181. waitForElementVisible(findTestObject("Matts objects/ftrb summary page/Page_ Fuse (Frontiersmb qa)/a_Status Log"), 0)
+
+47
+00:00:41,212 --> 00:00:41,213
+185. scrollToPosition(9999999, 9999999)
+
+48
+00:00:41,232 --> 00:00:41,232
+189. click(findTestObject("Matts objects/ftrb summary page/Page_ Fuse (Frontiersmb qa)/button_Schedule"))
+
+49
+00:00:41,380 --> 00:00:41,381
+193. verifyTextPresent("scheduled", false, STOP_ON_FAILURE)
+

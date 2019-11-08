@@ -1,0 +1,64 @@
+1
+00:00:01,290 --> 00:00:01,296
+1. openBrowser("")
+
+2
+00:00:24,403 --> 00:00:24,405
+5. navigateToUrl("https://fuse.staging.clearlink.com/#/")
+
+3
+00:00:31,238 --> 00:00:31,240
+9. setText(findTestObject("Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "frontpoint.qa@clearlink.com")
+
+4
+00:00:38,088 --> 00:00:38,090
+13. setEncryptedText(findTestObject("Page_Clearlink Authentication/input_Invalid username andor"), "h/wZhaWomj0Z9KKIpnVNaw==")
+
+5
+00:00:38,946 --> 00:00:38,947
+17. click(findTestObject("Page_Clearlink Authentication/button_Login"))
+
+6
+00:00:56,226 --> 00:00:56,227
+21. delay(3)
+
+7
+00:00:59,371 --> 00:00:59,373
+25. maximizeWindow()
+
+8
+00:01:04,735 --> 00:01:04,737
+29. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/a_FP"))
+
+9
+00:01:08,008 --> 00:01:08,010
+33. switchToWindowIndex("1")
+
+10
+00:01:08,749 --> 00:01:08,751
+37. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name"), "Test")
+
+11
+00:01:18,928 --> 00:01:18,929
+41. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name"), "Person")
+
+12
+00:01:22,591 --> 00:01:22,592
+45. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes"))
+
+13
+00:01:23,967 --> 00:01:23,967
+49. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/button_Next"))
+
+14
+00:01:25,416 --> 00:01:25,417
+53. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Street Address _customer_addresses_primary_line1"), "1316 lavaca ct")
+
+15
+00:01:29,688 --> 00:01:29,689
+57. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_City _customer_addresses_primary_city"), "Cape Coral")
+
+16
+00:01:36,601 --> 00:01:36,605
+61. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/legend_StateProvince"))
+

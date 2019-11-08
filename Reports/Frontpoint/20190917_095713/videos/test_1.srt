@@ -1,0 +1,68 @@
+1
+00:00:08,356 --> 00:00:08,360
+1. openBrowser("")
+
+2
+00:01:03,432 --> 00:01:03,434
+5. navigateToUrl("https://fuse.staging.clearlink.com/#/")
+
+3
+00:01:09,046 --> 00:01:09,048
+9. setText(findTestObject("Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "frontpoint.qa@clearlink.com")
+
+4
+00:01:17,829 --> 00:01:17,830
+13. setEncryptedText(findTestObject("Page_Clearlink Authentication/input_Invalid username andor"), "h/wZhaWomj0Z9KKIpnVNaw==")
+
+5
+00:01:29,180 --> 00:01:29,182
+17. click(findTestObject("Page_Clearlink Authentication/button_Login"))
+
+6
+00:01:53,098 --> 00:01:53,101
+21. delay(3)
+
+7
+00:01:56,409 --> 00:01:56,413
+25. maximizeWindow()
+
+8
+00:02:07,366 --> 00:02:07,367
+29. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/a_FP"))
+
+9
+00:02:14,743 --> 00:02:14,744
+33. switchToWindowIndex("1")
+
+10
+00:02:16,341 --> 00:02:16,343
+37. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name"), "Test")
+
+11
+00:02:41,935 --> 00:02:41,936
+41. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name"), "Person")
+
+12
+00:02:56,568 --> 00:02:56,569
+45. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number"), "564-654-5645")
+
+13
+00:03:18,215 --> 00:03:18,216
+49. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes"))
+
+14
+00:03:26,332 --> 00:03:26,333
+53. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/button_Next"))
+
+15
+00:03:33,283 --> 00:03:33,284
+57. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Street Address _customer_addresses_primary_line1"), "1316 lavaca ct")
+
+16
+00:03:59,165 --> 00:03:59,167
+61. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_City _customer_addresses_primary_city"), "Cape Coral")
+
+17
+00:04:14,024 --> 00:04:14,025
+65. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/legend_StateProvince"))
+

@@ -1,0 +1,184 @@
+1
+00:00:01,350 --> 00:00:01,355
+1. openBrowser("")
+
+2
+00:00:20,433 --> 00:00:20,434
+5. navigateToUrl("https://fuse.staging.clearlink.com/#/")
+
+3
+00:00:26,163 --> 00:00:26,165
+9. setText(findTestObject("Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "enercare.qa@clearlink.com")
+
+4
+00:00:29,754 --> 00:00:29,756
+13. setEncryptedText(findTestObject("Page_Clearlink Authentication/input_Invalid username andor"), "h/wZhaWomj04dZdXbz2UUQ==")
+
+5
+00:00:31,318 --> 00:00:31,320
+17. click(findTestObject("Page_Clearlink Authentication/button_Login"))
+
+6
+00:01:02,402 --> 00:01:02,403
+21. delay(3)
+
+7
+00:01:05,582 --> 00:01:05,585
+25. maximizeWindow()
+
+8
+00:01:25,172 --> 00:01:25,174
+29. click(findTestObject("Screen pops/Page_ Fuse (Matthew Browning)/a_ENCR"))
+
+9
+00:01:27,280 --> 00:01:27,281
+33. switchToWindowIndex("1")
+
+10
+00:01:27,684 --> 00:01:27,686
+37. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name"), "Test")
+
+11
+00:01:46,665 --> 00:01:46,666
+41. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name"), "Person")
+
+12
+00:01:49,480 --> 00:01:49,481
+45. setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number"), "564-654-5645")
+
+13
+00:01:51,906 --> 00:01:51,909
+49. click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes"))
+
+14
+00:01:57,539 --> 00:01:57,540
+53. selectOptionByIndex(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/select_Canada"), "0")
+
+15
+00:01:57,778 --> 00:01:57,779
+57. setText(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/input_Street Address _customer_addresses_primary_line1"), "123 Drive rd")
+
+16
+00:01:58,190 --> 00:01:58,193
+61. setText(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/input_Postal Code _customer_addresses_primary_postal_code"), "A1A1A1")
+
+17
+00:01:59,314 --> 00:01:59,315
+65. selectOptionByIndex(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/select_AlbertaBritish ColumbiaManitoba"), 2)
+
+18
+00:01:59,894 --> 00:01:59,896
+69. setText(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/input_City _customer_addresses_primary_city"), "Townsville")
+
+19
+00:02:00,659 --> 00:02:00,660
+73. click(findTestObject("Page_ Fuse (Scott Patterson)/label_Yes"), OPTIONAL)
+
+20
+00:02:01,355 --> 00:02:01,359
+77. setText(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/Page_ Fuse (Enercare qa)/input_Email _customer_email"), "test@mail.com")
+
+21
+00:02:03,783 --> 00:02:03,784
+81. scrollToPosition(9999999, 9999999)
+
+22
+00:02:03,905 --> 00:02:03,907
+85. click(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/button_Next"))
+
+23
+00:02:04,295 --> 00:02:04,296
+89. waitForElementVisible(findTestObject("encr springboard/Page_ Fuse (Enercare qa)/h1_Springboard"), 0)
+
+24
+00:02:05,861 --> 00:02:05,862
+93. delay(3)
+
+25
+00:02:08,912 --> 00:02:08,914
+97. click(findTestObject("encr springboard/Page_ Fuse (Enercare qa)/button_Next"))
+
+26
+00:02:09,152 --> 00:02:09,153
+101. waitForElementVisible(findTestObject("encr products/Page_ Fuse (Enercare qa)/h1_Products"), 0)
+
+27
+00:02:10,488 --> 00:02:10,489
+105. delay(1)
+
+28
+00:02:11,505 --> 00:02:11,507
+109. setText(findTestObject("encr products/Page_ Fuse (Enercare qa)/input_Site ID _site_id"), "123654789")
+
+29
+00:02:11,879 --> 00:02:11,879
+113. click(findTestObject("encr products/Page_ Fuse (Enercare qa)/span_CA"))
+
+30
+00:02:12,051 --> 00:02:12,053
+117. click(findTestObject("encr products/Page_ Fuse (Enercare qa)/input_Available Products_form-control"), STOP_ON_FAILURE)
+
+31
+00:02:12,298 --> 00:02:12,300
+121. click(findTestObject("encr products/Page_ Fuse (Enercare qa)/a_HF05 - Furnace No heat"))
+
+32
+00:02:13,206 --> 00:02:13,207
+125. delay(1)
+
+33
+00:02:14,225 --> 00:02:14,227
+129. click(findTestObject("encr products/Page_ Fuse (Enercare qa)/button_Next"))
+
+34
+00:02:14,371 --> 00:02:14,372
+133. waitForElementVisible(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/h1_Recaps"), 0)
+
+35
+00:02:15,547 --> 00:02:15,548
+137. delay(1)
+
+36
+00:02:16,565 --> 00:02:16,567
+141. click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers first name and last name (spell back)"))
+
+37
+00:02:16,700 --> 00:02:16,701
+145. click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers phone number"))
+
+38
+00:02:16,909 --> 00:02:16,910
+149. click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers physical Address and Billing Address"))
+
+39
+00:02:17,203 --> 00:02:17,204
+153. click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers email address (spell back)"))
+
+40
+00:02:17,364 --> 00:02:17,365
+157. click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirmed other recaps present in DOK"))
+
+41
+00:02:17,547 --> 00:02:17,549
+161. click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/button_Next"))
+
+42
+00:02:17,739 --> 00:02:17,740
+165. waitForElementVisible(findTestObject("encr summary page/Page_ Fuse (Enercare qa)/a_Status Log"), 0)
+
+43
+00:02:18,423 --> 00:02:18,424
+169. scrollToPosition(9999999, 9999999)
+
+44
+00:02:18,571 --> 00:02:18,573
+173. click(findTestObject("encr summary page/Page_ Fuse (Enercare qa)/button_Schedule"))
+
+45
+00:02:18,827 --> 00:02:18,828
+177. waitForElementClickable(findTestObject("encr summary page/Page_ Fuse (Enercare qa)/a_Status Log"), 0)
+
+46
+00:02:18,935 --> 00:02:18,936
+181. verifyElementVisible(findTestObject("Matts objects/Encr schedule status"))
+

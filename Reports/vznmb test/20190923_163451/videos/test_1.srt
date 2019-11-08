@@ -1,0 +1,80 @@
+1
+00:00:04,266 --> 00:00:04,280
+1. openBrowser("fuse.staging.clearlink.com")
+
+2
+00:00:53,241 --> 00:00:53,243
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "verizonsmb.qa@clearlink.com")
+
+3
+00:01:10,722 --> 00:01:10,726
+9. setText(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019!")
+
+4
+00:01:19,288 --> 00:01:19,290
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:01:36,265 --> 00:01:36,266
+17. maximizeWindow(STOP_ON_FAILURE)
+
+6
+00:01:41,480 --> 00:01:41,481
+21. delay(2)
+
+7
+00:01:43,660 --> 00:01:43,664
+25. click(findTestObject("vznmb customer page/Page_ Fuse (verizonsmb qa)/a_VZNMB"))
+
+8
+00:01:46,996 --> 00:01:46,997
+29. delay(2)
+
+9
+00:01:49,101 --> 00:01:49,103
+33. switchToWindowIndex(1)
+
+10
+00:01:50,581 --> 00:01:50,583
+37. delay(2)
+
+11
+00:01:52,758 --> 00:01:52,772
+41. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), OPTIONAL)
+
+12
+00:02:02,627 --> 00:02:02,628
+45. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), "Changedagain4")
+
+13
+00:02:14,518 --> 00:02:14,519
+49. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name"), "Scott")
+
+14
+00:02:18,096 --> 00:02:18,097
+53. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email"), "Miloiscool@testing.com")
+
+15
+00:02:30,861 --> 00:02:30,863
+57. delay(3)
+
+16
+00:02:33,887 --> 00:02:33,890
+61. click(findTestObject("vznmb customer page/Page_ Fuse (verizonsmb qa)/span_Yes"))
+
+17
+00:02:36,261 --> 00:02:36,262
+65. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1"), "1222 w athleen dr")
+
+18
+00:02:42,929 --> 00:02:42,930
+69. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city"), "West Jordan")
+
+19
+00:02:49,373 --> 00:02:49,375
+73. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama"), "45")
+
+20
+00:02:58,766 --> 00:02:58,768
+77. setText(findTestObject("vnzmb customer slab/Page_ Fuse (verizonsmb qa)/input_Business Name _order_business_name"), "New business")
+

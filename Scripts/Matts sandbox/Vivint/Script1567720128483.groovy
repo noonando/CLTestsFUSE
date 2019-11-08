@@ -38,9 +38,8 @@ WebUI.setText(findTestObject('Matts objects/vivint customer/Page_ Fuse (Vivint q
 WebUI.setText(findTestObject('Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Email _customer_emails_primary_email'), 
     'test@testing.com')
 
-WebUI.setText(findTestObject('Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
-    '5464665879')
-
+//WebUI.setText(findTestObject('Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
+//    '5464665879')
 WebUI.setText(findTestObject('Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Zip Code _customer_addresses_primary_zip_code'), 
     '84084')
 
@@ -113,7 +112,7 @@ WebUI.click(findTestObject('Matts objects/vivint recap/Page_ Fuse (Vivint qa)/bu
 
 WebUI.waitForElementVisible(findTestObject('Matts objects/vivint summary/Page_ Fuse (Vivint qa)/a_Status Log'), 0)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Matts objects/vivint summary/Page_ Fuse (Vivint qa)/button_Schedule'))
 

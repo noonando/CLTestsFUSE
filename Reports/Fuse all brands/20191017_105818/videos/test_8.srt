@@ -1,0 +1,196 @@
+1
+00:00:00,325 --> 00:00:00,325
+1. openBrowser("https://fuse.staging.clearlink.com")
+
+2
+00:00:08,467 --> 00:00:08,468
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "vivint.qa@clearlink.com")
+
+3
+00:00:08,708 --> 00:00:08,709
+9. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019")
+
+4
+00:00:08,888 --> 00:00:08,889
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:00:12,879 --> 00:00:12,879
+17. waitForPageLoad(3)
+
+6
+00:00:12,959 --> 00:00:12,960
+21. maximizeWindow()
+
+7
+00:00:17,121 --> 00:00:17,122
+25. click(findTestObject("Matts objects/vivint customer slab/Page_ Fuse (Vivint qa)/a_VIV"))
+
+8
+00:00:17,368 --> 00:00:17,369
+29. switchToWindowIndex("1")
+
+9
+00:00:17,435 --> 00:00:17,435
+33. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_First Name _customer_first_name"), "Test")
+
+10
+00:00:21,684 --> 00:00:21,685
+37. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Last Name _customer_last_name"), "Vivint")
+
+11
+00:00:21,977 --> 00:00:21,978
+41. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Email _customer_emails_primary_email"), "test@testing.com")
+
+12
+00:00:22,541 --> 00:00:22,541
+45. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Zip Code _customer_addresses_primary_zip_code"), "84084")
+
+13
+00:00:22,892 --> 00:00:22,892
+49. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_Street Address _customer_addresses_primary_line1"), "1222 W Athleen dr")
+
+14
+00:00:23,368 --> 00:00:23,368
+53. click(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/span_Yes"))
+
+15
+00:00:23,638 --> 00:00:23,639
+57. setText(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/input_City _customer_addresses_primary_city"), "West Jordan")
+
+16
+00:00:24,225 --> 00:00:24,225
+61. selectOptionByIndex(findTestObject("Matts objects/vivint customer/Page_ Fuse (Vivint qa)/select_AlabamaAlaskaArizonaArkansas"), 45)
+
+17
+00:00:24,992 --> 00:00:24,993
+65. delay(1)
+
+18
+00:00:26,017 --> 00:00:26,018
+69. click(findTestObject("Matts objects/vivint customer slab/Page_ Fuse (Vivint qa)/button_Next"))
+
+19
+00:00:26,198 --> 00:00:26,199
+73. waitForElementVisible(findTestObject("Matts objects/vivint springboard/Page_ Fuse (Vivint qa)/h1_Springboard"), 0)
+
+20
+00:00:27,319 --> 00:00:27,320
+77. click(findTestObject("Matts objects/vivint springboard/Page_ Fuse (Vivint qa)/button_Next"))
+
+21
+00:00:27,439 --> 00:00:27,440
+81. waitForElementVisible(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/h1_Products"), 4)
+
+22
+00:00:28,549 --> 00:00:28,550
+85. setText(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/vivint opportunity number"), "123456789")
+
+23
+00:00:28,854 --> 00:00:28,854
+89. setText(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/discount applied"), "200")
+
+24
+00:00:29,049 --> 00:00:29,050
+93. setText(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/amount collected"), "45.99")
+
+25
+00:00:29,271 --> 00:00:29,271
+97. selectOptionByIndex(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/select term"), 2)
+
+26
+00:00:29,528 --> 00:00:29,530
+101. selectOptionByIndex(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/installation fee"), 2)
+
+27
+00:00:29,765 --> 00:00:29,766
+105. click(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/input_Available Products_form-control"))
+
+28
+00:00:29,949 --> 00:00:29,949
+109. click(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/a_SmartHomeVideo 4 Camera"))
+
+29
+00:00:30,269 --> 00:00:30,269
+113. delay(2)
+
+30
+00:00:32,295 --> 00:00:32,297
+117. click(findTestObject("Matts objects/vivint products/Page_ Fuse (Vivint qa)/button_Next"))
+
+31
+00:00:32,476 --> 00:00:32,477
+121. delay(1)
+
+32
+00:00:33,489 --> 00:00:33,490
+125. waitForElementVisible(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/h1_Recaps"), 0)
+
+33
+00:00:34,104 --> 00:00:34,106
+129. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_SMS Permission Statement Is it OK i"))
+
+34
+00:00:34,251 --> 00:00:34,251
+133. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_Installation SMS Permission Statement Y"))
+
+35
+00:00:34,390 --> 00:00:34,390
+137. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_RECAPS Mr  Mrs______ I want to qui"))
+
+36
+00:00:34,584 --> 00:00:34,585
+141. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_Today we are setting you up with our __"))
+
+37
+00:00:34,752 --> 00:00:34,752
+145. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_The equipment you have chosen will b"))
+
+38
+00:00:34,896 --> 00:00:34,897
+149. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_Your total monthly payment will consist"))
+
+39
+00:00:35,073 --> 00:00:35,074
+153. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_A total of ______ will be deducted from y"))
+
+40
+00:00:35,232 --> 00:00:35,232
+157. scrollToPosition(9999999, 9999999)
+
+41
+00:00:35,264 --> 00:00:35,265
+161. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_The account holder must be present a"))
+
+42
+00:00:35,427 --> 00:00:35,427
+165. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_Iowa and Ohio residents Required to"))
+
+43
+00:00:35,593 --> 00:00:35,594
+169. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/span_Transfer customer to Pre-Install Survey"))
+
+44
+00:00:35,764 --> 00:00:35,765
+173. click(findTestObject("Matts objects/vivint recap/Page_ Fuse (Vivint qa)/button_Next"))
+
+45
+00:00:35,934 --> 00:00:35,934
+177. waitForElementVisible(findTestObject("Matts objects/vivint summary/Page_ Fuse (Vivint qa)/a_Status Log"), 0)
+
+46
+00:00:37,093 --> 00:00:37,094
+181. delay(3)
+
+47
+00:00:40,104 --> 00:00:40,105
+185. click(findTestObject("Matts objects/vivint summary/Page_ Fuse (Vivint qa)/button_Schedule"))
+
+48
+00:00:40,318 --> 00:00:40,320
+189. verifyAlertNotPresent(10)
+
+49
+00:00:50,551 --> 00:00:50,552
+193. verifyTextPresent("scheduled", false)
+

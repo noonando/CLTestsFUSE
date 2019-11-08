@@ -5,15 +5,15 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <testSuiteGuid>ca7235ec-85ee-4be5-a9ea-1235a15b71a6</testSuiteGuid>
    <testCaseLink>
       <guid>54d3c97b-833e-4cb4-b1f1-1b9ea8ad3436</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Matts sandbox/attb test 1</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -69,5 +69,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Matts sandbox/CTL qwest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa284f6b-76b5-43eb-ae59-231ad6d3ddae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Matts sandbox/Viasat</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

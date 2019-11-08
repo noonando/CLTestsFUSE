@@ -1,0 +1,124 @@
+1
+00:00:03,779 --> 00:00:03,798
+1. openBrowser("fuse.staging.clearlink.com")
+
+2
+00:01:31,545 --> 00:01:31,547
+5. setText(findTestObject("UAT login/Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "verizonsmb.qa@clearlink.com")
+
+3
+00:02:00,358 --> 00:02:00,360
+9. setText(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/input_to Fuse (Dev)_pwd"), "Clink2019!")
+
+4
+00:02:20,973 --> 00:02:20,974
+13. click(findTestObject("REST examples/uatlogin1/Page_Clearlink Authentication/button_Login"))
+
+5
+00:03:18,289 --> 00:03:18,291
+17. maximizeWindow(STOP_ON_FAILURE)
+
+6
+00:03:25,884 --> 00:03:25,886
+21. delay(2)
+
+7
+00:03:28,219 --> 00:03:28,222
+25. click(findTestObject("All screen pop updated/Page_ Fuse all screen pop updated/a_VZNB"))
+
+8
+00:03:36,112 --> 00:03:36,113
+29. delay(2)
+
+9
+00:03:38,468 --> 00:03:38,471
+33. switchToWindowIndex(1)
+
+10
+00:03:40,315 --> 00:03:40,316
+37. delay(2)
+
+11
+00:03:42,682 --> 00:03:42,683
+41. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), OPTIONAL)
+
+12
+00:03:58,519 --> 00:03:58,520
+45. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_First Name _customer_first_name"), "Changedagain4")
+
+13
+00:04:09,634 --> 00:04:09,635
+49. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Last Name _customer_last_name"), "Scott")
+
+14
+00:04:12,866 --> 00:04:12,867
+53. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Email _customer_email"), "Miloiscool@testing.com")
+
+15
+00:04:20,771 --> 00:04:20,772
+57. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Phone _customer_phone_numbers_primary_phone_number"), "5645656587")
+
+16
+00:04:24,624 --> 00:04:24,627
+61. waitForElementClickable(findTestObject("vznmb customer page/Page_ Fuse (verizonsmb qa)/span_Yes"), 0)
+
+17
+00:04:25,162 --> 00:04:25,163
+65. click(findTestObject("VZN phone consent/Page_ Fuse (verizonsmb qa)/span_Yes"))
+
+18
+00:04:26,021 --> 00:04:26,022
+69. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Street Address _customer_addresses_primary_line1"), "1222 w athleen dr")
+
+19
+00:04:28,599 --> 00:04:28,600
+73. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_City _customer_addresses_primary_city"), "West Jordan")
+
+20
+00:04:32,155 --> 00:04:32,156
+77. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_Alabama"), "45")
+
+21
+00:04:34,762 --> 00:04:34,763
+81. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Business Name _customer_business_name"), "Milo is cool so let him buy the things you need")
+
+22
+00:04:39,769 --> 00:04:39,770
+85. delay(2)
+
+23
+00:04:41,783 --> 00:04:41,784
+89. scrollToElement(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next"), 0)
+
+24
+00:04:41,856 --> 00:04:41,857
+93. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/button_Next"))
+
+25
+00:04:42,089 --> 00:04:42,089
+97. delay(2)
+
+26
+00:04:44,104 --> 00:04:44,105
+101. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/span_Products"))
+
+27
+00:04:44,244 --> 00:04:44,245
+105. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Verizon Order Number (MON) _order_brand_account_number"), "321654897")
+
+28
+00:04:45,252 --> 00:04:45,254
+109. setText(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Installation Date _el-input__inner"), "06/18/2020")
+
+29
+00:04:45,605 --> 00:04:45,606
+113. selectOptionByIndex(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/select_8am-10am8am-12pm10am-12pm12pm-2pm12pm-4pm1pm-5pm"), 3)
+
+30
+00:04:45,920 --> 00:04:45,921
+117. delay(1, STOP_ON_FAILURE)
+
+31
+00:04:46,932 --> 00:04:46,933
+121. click(findTestObject("Verizon SMB Object repo/Page_ Fuse (verizonsmb qa)/input_Available Products_form-control"), STOP_ON_FAILURE)
+
