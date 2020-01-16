@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ENCR" time="118.621" tests="1" failures="0" errors="0">
+   <testsuite name="ENCR" tests="1" failures="0" errors="0" time="118.621" timestamp="2019-12-03 16:52:20" hostname="Matt.Browning - CLSLC_6446" id="Test Suites/ENCR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Matt.Browning\\git\\CLTestsFUSEdev\\Reports\\20191203_163640\\ENCR\\20191203_163659"/>
+         <property name="logFiles" value="C:\\Users\\Matt.Browning\\git\\CLTestsFUSEdev\\Reports\\20191203_163640\\ENCR\\20191203_163659\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Matt.Browning\\git\\CLTestsFUSEdev\\Reports\\20191203_163640\\ENCR\\20191203_163659\\1575417222334.png, C:\\Users\\Matt.Browning\\git\\CLTestsFUSEdev\\Reports\\20191203_163640\\ENCR\\20191203_163659/videos\\test_1.avi"/>
+         <property name="hostName" value="Matt.Browning - CLSLC_6446"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="10.1.59.14"/>
+         <property name="sessionId" value="cd706d9a56f4e75141ddf94f82eee107"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Matts sandbox/Encr" time="116.761" classname="Test Cases/Matts sandbox/Encr" status="PASSED">
+         <system-out><![CDATA[2019-12-03 16:52:21 - [TEST_CASE][PASSED] - Test Cases/Matts sandbox/Encr: Test Cases/Matts sandbox/Encr
+
+2019-12-03 16:52:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-03 16:52:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-03 16:52:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-03 16:52:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-03 16:52:51 - [TEST_STEP][PASSED] - navigateToUrl("https://fuse.staging.clearlink.com/#/"): Navigate to 'https://fuse.staging.clearlink.com/#/' successfully
+
+2019-12-03 16:52:57 - [MESSAGE][PASSED] - Navigate to 'https://fuse.staging.clearlink.com/#/' successfully
+
+2019-12-03 16:52:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clearlink Authentication/input_to Fuse (Dev)_usr"), "enercare.qa@clearlink.com"): Text 'enercare.qa@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'
+
+2019-12-03 16:53:03 - [MESSAGE][PASSED] - Text 'enercare.qa@clearlink.com' is set on object 'Object Repository/Page_Clearlink Authentication/input_to Fuse (Dev)_usr'
+
+2019-12-03 16:53:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Clearlink Authentication/input_Invalid username andor"), "h/wZhaWomj2ebzjd4pfbrw=="): Text ****** has been set on object 'Object Repository/Page_Clearlink Authentication/input_Invalid username andor'
+
+2019-12-03 16:53:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Clearlink Authentication/input_Invalid username andor'
+
+2019-12-03 16:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clearlink Authentication/button_Login")): Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-12-03 16:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clearlink Authentication/button_Login' is clicked on
+
+2019-12-03 16:53:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-03 16:53:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-03 16:53:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-03 16:53:22 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-03 16:53:22 - [TEST_STEP][PASSED] - click(findTestObject("All screen pop updated/Page_ Fuse all screen pop updated/Encr screen pop")): Object: 'Object Repository/All screen pop updated/Page_ Fuse all screen pop updated/Encr screen pop' is clicked on
+
+2019-12-03 16:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/All screen pop updated/Page_ Fuse all screen pop updated/Encr screen pop' is clicked on
+
+2019-12-03 16:53:24 - [TEST_STEP][PASSED] - switchToWindowIndex("1"): Switched to window with index: '1'
+
+2019-12-03 16:53:30 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-12-03 16:53:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name"), "Test"): Text 'Test' is set on object 'Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name'
+
+2019-12-03 16:53:33 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_ Fuse (Frontpoint qa)/input_First Name _customer_first_name'
+
+2019-12-03 16:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name"), "Person"): Text 'Person' is set on object 'Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name'
+
+2019-12-03 16:53:35 - [MESSAGE][PASSED] - Text 'Person' is set on object 'Object Repository/Page_ Fuse (Frontpoint qa)/input_Last Name _customer_last_name'
+
+2019-12-03 16:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes")): Object: 'Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes' is clicked on
+
+2019-12-03 16:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes' is clicked on
+
+2019-12-03 16:53:36 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/select_Canada"), "0"): All options with index in [0] are selected on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/select_Canada'
+
+2019-12-03 16:53:37 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/select_Canada'
+
+2019-12-03 16:53:37 - [TEST_STEP][PASSED] - setText(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/input_Street Address _customer_addresses_primary_line1"), "123 Drive rd"): Text '123 Drive rd' is set on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/input_Street Address _customer_addresses_primary_line1'
+
+2019-12-03 16:53:38 - [MESSAGE][PASSED] - Text '123 Drive rd' is set on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/input_Street Address _customer_addresses_primary_line1'
+
+2019-12-03 16:53:38 - [TEST_STEP][PASSED] - setText(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/input_Postal Code _customer_addresses_primary_postal_code"), "A1A1A1"): Text 'A1A1A1' is set on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/input_Postal Code _customer_addresses_primary_postal_code'
+
+2019-12-03 16:53:39 - [MESSAGE][PASSED] - Text 'A1A1A1' is set on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/input_Postal Code _customer_addresses_primary_postal_code'
+
+2019-12-03 16:53:39 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/select_AlbertaBritish ColumbiaManitoba"), 2): All options with index in [2] are selected on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/select_AlbertaBritish ColumbiaManitoba'
+
+2019-12-03 16:53:41 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/select_AlbertaBritish ColumbiaManitoba'
+
+2019-12-03 16:53:41 - [TEST_STEP][PASSED] - setText(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/input_City _customer_addresses_primary_city"), "Townsville"): Text 'Townsville' is set on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/input_City _customer_addresses_primary_city'
+
+2019-12-03 16:53:42 - [MESSAGE][PASSED] - Text 'Townsville' is set on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/input_City _customer_addresses_primary_city'
+
+2019-12-03 16:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_ Fuse (Scott Patterson)/label_Yes"), OPTIONAL): Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Encr.run(Encr:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575416219515.run(TempTestSuite1575416219515.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1559148142106.run(Script1559148142106.groovy:59)
+	... 13 more
+)
+
+2019-12-03 16:53:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ Fuse (Scott Patterson)/label_Yes' does not exist
+
+2019-12-03 16:53:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-03 16:53:42 - [MESSAGE][WARNING] - Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Encr.run(Encr:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575416219515.run(TempTestSuite1575416219515.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:50)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1559148142106.run(Script1559148142106.groovy:59)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Matt.Browning\\git\\CLTestsFUSEdev\\Reports\\20191203_163640\\ENCR\\20191203_163659\\1575417222334.png]]
+
+2019-12-03 16:53:42 - [TEST_STEP][PASSED] - setText(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/Page_ Fuse (Enercare qa)/input_Email _customer_email"), "test@mail.com"): Text 'test@mail.com' is set on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/Page_ Fuse (Enercare qa)/input_Email _customer_email'
+
+2019-12-03 16:53:44 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/Page_ Fuse (Enercare qa)/input_Email _customer_email'
+
+2019-12-03 16:53:44 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-03 16:53:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-03 16:53:45 - [TEST_STEP][PASSED] - click(findTestObject("encr customer slab/Page_ Fuse (Enercare qa)/button_Next")): Object: 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/button_Next' is clicked on
+
+2019-12-03 16:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/encr customer slab/Page_ Fuse (Enercare qa)/button_Next' is clicked on
+
+2019-12-03 16:53:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("encr springboard/Page_ Fuse (Enercare qa)/h1_Springboard"), 0): Object 'Object Repository/encr springboard/Page_ Fuse (Enercare qa)/h1_Springboard' is visible
+
+2019-12-03 16:53:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-03 16:53:48 - [MESSAGE][PASSED] - Object 'Object Repository/encr springboard/Page_ Fuse (Enercare qa)/h1_Springboard' is visible
+
+2019-12-03 16:53:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-03 16:53:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-03 16:53:51 - [TEST_STEP][PASSED] - click(findTestObject("encr springboard/Page_ Fuse (Enercare qa)/button_Next")): Object: 'Object Repository/encr springboard/Page_ Fuse (Enercare qa)/button_Next' is clicked on
+
+2019-12-03 16:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/encr springboard/Page_ Fuse (Enercare qa)/button_Next' is clicked on
+
+2019-12-03 16:53:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("encr products/Page_ Fuse (Enercare qa)/h1_Products"), 0): Object 'Object Repository/encr products/Page_ Fuse (Enercare qa)/h1_Products' is visible
+
+2019-12-03 16:53:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-03 16:53:53 - [MESSAGE][PASSED] - Object 'Object Repository/encr products/Page_ Fuse (Enercare qa)/h1_Products' is visible
+
+2019-12-03 16:53:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-03 16:53:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-03 16:53:54 - [TEST_STEP][PASSED] - setText(findTestObject("encr products/Page_ Fuse (Enercare qa)/input_Site ID _site_id"), "123654789"): Text '123654789' is set on object 'Object Repository/encr products/Page_ Fuse (Enercare qa)/input_Site ID _site_id'
+
+2019-12-03 16:53:55 - [MESSAGE][PASSED] - Text '123654789' is set on object 'Object Repository/encr products/Page_ Fuse (Enercare qa)/input_Site ID _site_id'
+
+2019-12-03 16:53:55 - [TEST_STEP][PASSED] - click(findTestObject("encr products/Page_ Fuse (Enercare qa)/span_CA")): Object: 'Object Repository/encr products/Page_ Fuse (Enercare qa)/span_CA' is clicked on
+
+2019-12-03 16:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/encr products/Page_ Fuse (Enercare qa)/span_CA' is clicked on
+
+2019-12-03 16:53:56 - [TEST_STEP][PASSED] - click(findTestObject("encr products/Page_ Fuse (Enercare qa)/input_Available Products_form-control"), STOP_ON_FAILURE): Object: 'Object Repository/encr products/Page_ Fuse (Enercare qa)/input_Available Products_form-control' is clicked on
+
+2019-12-03 16:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/encr products/Page_ Fuse (Enercare qa)/input_Available Products_form-control' is clicked on
+
+2019-12-03 16:53:56 - [TEST_STEP][PASSED] - click(findTestObject("encr products/Page_ Fuse (Enercare qa)/a_HF05 - Furnace No heat")): Object: 'Object Repository/encr products/Page_ Fuse (Enercare qa)/a_HF05 - Furnace No heat' is clicked on
+
+2019-12-03 16:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/encr products/Page_ Fuse (Enercare qa)/a_HF05 - Furnace No heat' is clicked on
+
+2019-12-03 16:53:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-03 16:53:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-03 16:53:58 - [TEST_STEP][PASSED] - click(findTestObject("encr products/Page_ Fuse (Enercare qa)/button_Next")): Object: 'Object Repository/encr products/Page_ Fuse (Enercare qa)/button_Next' is clicked on
+
+2019-12-03 16:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/encr products/Page_ Fuse (Enercare qa)/button_Next' is clicked on
+
+2019-12-03 16:53:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/h1_Recaps"), 0): Object 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/h1_Recaps' is visible
+
+2019-12-03 16:53:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-03 16:54:01 - [MESSAGE][PASSED] - Object 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/h1_Recaps' is visible
+
+2019-12-03 16:54:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-03 16:54:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-03 16:54:02 - [TEST_STEP][PASSED] - click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers first name and last name (spell back)")): Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers first name and last name (spell back)' is clicked on
+
+2019-12-03 16:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers first name and last name (spell back)' is clicked on
+
+2019-12-03 16:54:03 - [TEST_STEP][PASSED] - click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers phone number")): Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers phone number' is clicked on
+
+2019-12-03 16:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers phone number' is clicked on
+
+2019-12-03 16:54:03 - [TEST_STEP][PASSED] - click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers physical Address and Billing Address")): Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers physical Address and Billing Address' is clicked on
+
+2019-12-03 16:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers physical Address and Billing Address' is clicked on
+
+2019-12-03 16:54:04 - [TEST_STEP][PASSED] - click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers email address (spell back)")): Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers email address (spell back)' is clicked on
+
+2019-12-03 16:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirm customers email address (spell back)' is clicked on
+
+2019-12-03 16:54:05 - [TEST_STEP][PASSED] - click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/span_Confirmed other recaps present in DOK")): Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirmed other recaps present in DOK' is clicked on
+
+2019-12-03 16:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/span_Confirmed other recaps present in DOK' is clicked on
+
+2019-12-03 16:54:05 - [TEST_STEP][PASSED] - click(findTestObject("encr recaps/Page_ Fuse (Enercare qa)/button_Next")): Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/button_Next' is clicked on
+
+2019-12-03 16:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/encr recaps/Page_ Fuse (Enercare qa)/button_Next' is clicked on
+
+2019-12-03 16:54:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("encr summary page/Page_ Fuse (Enercare qa)/a_Status Log"), 0): Object 'Object Repository/encr summary page/Page_ Fuse (Enercare qa)/a_Status Log' is visible
+
+2019-12-03 16:54:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-03 16:54:09 - [MESSAGE][PASSED] - Object 'Object Repository/encr summary page/Page_ Fuse (Enercare qa)/a_Status Log' is visible
+
+2019-12-03 16:54:09 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-03 16:54:09 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-03 16:54:09 - [TEST_STEP][PASSED] - click(findTestObject("encr summary page/Page_ Fuse (Enercare qa)/button_Schedule")): Object: 'Object Repository/encr summary page/Page_ Fuse (Enercare qa)/button_Schedule' is clicked on
+
+2019-12-03 16:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/encr summary page/Page_ Fuse (Enercare qa)/button_Schedule' is clicked on
+
+2019-12-03 16:54:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("encr summary page/Page_ Fuse (Enercare qa)/a_Status Log"), 0): Object 'Object Repository/encr summary page/Page_ Fuse (Enercare qa)/a_Status Log' is clickable
+
+2019-12-03 16:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-03 16:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/encr summary page/Page_ Fuse (Enercare qa)/a_Status Log' is clickable
+
+2019-12-03 16:54:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Matts objects/Encr schedule status")): Object 'Object Repository/Matts objects/Encr schedule status' is visible
+
+2019-12-03 16:54:16 - [MESSAGE][PASSED] - Object 'Object Repository/Matts objects/Encr schedule status' is visible
+
+2019-12-03 16:54:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Matts sandbox/Encr' .
+
+2019-12-03 16:54:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Matts sandbox/Encr' .
+[[ATTACHMENT|C:\\Users\\Matt.Browning\\git\\CLTestsFUSEdev\\Reports\\20191203_163640\\ENCR\\20191203_163659/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-03 16:52:20 - [TEST_SUITE][PASSED] - ENCR: Test Cases/Matts sandbox/Encr]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

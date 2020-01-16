@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
@@ -20,7 +22,7 @@ WebUI.navigateToUrl('https://fuse.staging.clearlink.com/#/')
 
 WebUI.setText(findTestObject('Page_Clearlink Authentication/input_to Fuse (Dev)_usr'), 'enercare.qa@clearlink.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Clearlink Authentication/input_Invalid username andor'), 'h/wZhaWomj04dZdXbz2UUQ==')
+WebUI.setEncryptedText(findTestObject('Page_Clearlink Authentication/input_Invalid username andor'), 'h/wZhaWomj2ebzjd4pfbrw==')
 
 WebUI.click(findTestObject('Page_Clearlink Authentication/button_Login'))
 
@@ -28,7 +30,7 @@ WebUI.delay(3)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Screen pops/Page_ Fuse (Matthew Browning)/a_ENCR'))
+WebUI.click(findTestObject('All screen pop updated/Page_ Fuse all screen pop updated/Encr screen pop'))
 
 WebUI.switchToWindowIndex('1')
 
@@ -38,7 +40,6 @@ WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input
 
 //WebUI.setText(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/input_Phone _customer_phone_numbers_primary_phone_number'), 
 //    '564-654-5645')
-
 WebUI.click(findTestObject('Object Repository/Page_ Fuse (Frontpoint qa)/label_Yes'))
 
 WebUI.selectOptionByIndex(findTestObject('encr customer slab/Page_ Fuse (Enercare qa)/select_Canada'), '0')
